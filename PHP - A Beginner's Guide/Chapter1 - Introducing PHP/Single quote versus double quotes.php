@@ -12,6 +12,8 @@
 echo "Welcome\nto\nPHP";
 ?>
 
+<br/>
+
 <?php
 // output: Welcome\nto\nPHP
 echo 'Welcome\to\nPHP';
