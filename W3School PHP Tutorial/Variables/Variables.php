@@ -18,6 +18,10 @@ $txt = "Hello World!";
 $x = 5;
 $y = 10.5;
 
+// PHP variable names are case-sensitive.
+$age = 25;
+$Age = 24;
+
 echo $txt;
 echo "<br/>";
 echo $x;
