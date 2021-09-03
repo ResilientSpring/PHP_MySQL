@@ -27,6 +27,10 @@ echo "<br/>";
 echo $x;
 echo "<br>";
 echo $y;
+echo "<br>";
+echo $Age;
+echo "<br/>";
+echo $age;
 ?>
 
 </body>
