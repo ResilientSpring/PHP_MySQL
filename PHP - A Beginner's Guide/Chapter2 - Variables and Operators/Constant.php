@@ -12,7 +12,7 @@ define("PROGRAM", "The Matrix");
 define("VERSION", 11.7);
 
 // use constants
-echo 'Welcome to '. PROGRAM . '(version'. VERSION . ')';
+echo 'Welcome to '. PROGRAM . ' (version '. VERSION . ')';
 ?>
 </body>
 </html>
