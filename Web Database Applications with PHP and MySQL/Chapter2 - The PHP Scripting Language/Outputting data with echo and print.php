@@ -12,4 +12,13 @@ print 456;
 
 // So can the contents of variables
 $outputString = "Hi!";
+
 echo $outputString;
+
+print $outputString;
+
+// The difference between print and echo is that echo can output more than one parameter,
+// each separated by a comma.
+echo "The answer is ", 43;
+
+
