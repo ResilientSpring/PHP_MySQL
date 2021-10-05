@@ -8,6 +8,12 @@ PHP examines, or parses, double-quoted strings and replaces variable names with 
 
 $number = 45;
 $vehicle = "bus";
-$message = "This $vehicle holds $number people.";
+$message = "This $vehicle holds $number people.<br>";
 
 print $message;
+
+// To include the dollar signs in a double-quoted string, you need escape the variable substitution
+// meaning with the backslash sequence \$
+$message2 = "This \$vehicle holds \$number people.";
+
+print $message2;
