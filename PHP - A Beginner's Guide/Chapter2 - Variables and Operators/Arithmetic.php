@@ -18,4 +18,8 @@ echo "$x * $y = $product\n";
 
 $quotient = $x / $y;
 
-echo "$x / $y = $quotient";
+echo "$x / $y = $quotient\n";
+
+$modulus = $x % $y;
+
+echo "$x % $y = $modulus\n";
