@@ -28,3 +28,11 @@ print "\n <br>$message3";
 $message4 = "My computer has {$memory}Mbytes of RAM.";
 
 print "\n$message4";
+
+// Single-quoted strings are not parsed in the same way as double-quoted strings
+// for variable substitution.
+$number = 45;
+$vehicle = "bus";
+
+print "<br>";
+print 'The $vehicle holds $number people';
