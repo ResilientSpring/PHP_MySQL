@@ -5,3 +5,5 @@
 
 const PI = 3.14159;  // Constants are not preceded by a $ character.
 
+// By convention, constant names use uppercase characters.
+
