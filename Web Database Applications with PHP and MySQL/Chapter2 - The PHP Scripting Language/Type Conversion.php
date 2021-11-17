@@ -29,3 +29,27 @@ echo "<br>";
 $competitive_edge = intval($var, 16);
 print $competitive_edge;
 echo "<br>";
+
+// Cast to an integer
+// the following are equivalent
+$int = (int) $var;
+print $int;
+echo "<br>";
+
+$int = (integer) $var;
+print $int;
+echo "<br>";
+
+$int = intval($var);
+print $int;
+echo "<br>";
+
+// cast to a Boolean
+$bool = (bool) $var;
+print $bool;
+echo "<br>";
+
+$bool = (boolean) $var;
+print $bool;
+echo "<br>";
+
