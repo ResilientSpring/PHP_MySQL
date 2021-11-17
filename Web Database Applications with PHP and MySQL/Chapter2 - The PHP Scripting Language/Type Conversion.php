@@ -13,8 +13,15 @@ $var = "abc";
 // the call to intval() sets $value to zero.
 $value = intval($var);
 
+echo $value;
+print "<br>";
+
 // sets $count to the integer value 2748
 $count = 2748;
+print $count;
+echo "<br>";
 
 // Integer value of "abc" as a hexadecimal number
 $count = intval($var, 16);
+print $count;
+echo "<br>";
