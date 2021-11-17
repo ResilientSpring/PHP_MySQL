@@ -25,3 +25,7 @@ echo "<br>";
 $count = intval($var, 16);
 print $count;
 echo "<br>";
+
+$competitive_edge = intval($var, 16);
+print $competitive_edge;
+echo "<br>";
