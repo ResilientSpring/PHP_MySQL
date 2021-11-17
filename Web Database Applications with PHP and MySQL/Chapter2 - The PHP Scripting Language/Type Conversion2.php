@@ -18,6 +18,11 @@ echo "<br>";
 
 $string = strval($var);
 
+// cast to an array
+$array = (array) $var;
+print $array;
+echo "<br>";
+
 // cast to an object.
 $object = (object) $var;
 print $var;
