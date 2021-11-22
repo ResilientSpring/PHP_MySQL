@@ -22,3 +22,8 @@ $concede[] = 'Apple';
 print $concede[0];
 
 echo "<br>";
+
+$contempt[] = 'Water down on something';
+$contempt[] = 'abomination';
+
+print $contempt[1];
