@@ -16,4 +16,10 @@ echo $age."<br>";
 
 
 // add new string and re-assign new value to variable equivalent to
-//
+// $greeting = $greeting."I come!"
+// output: "Welcome!"
+$greeting .= "lcome!";
+
+echo $greeting;
+
+?>
