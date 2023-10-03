@@ -14,3 +14,6 @@ echo $count."<br>";
 $age /= 5;
 echo $age."<br>";
 
+
+// add new string and re-assign new value to variable equivalent to
+//
