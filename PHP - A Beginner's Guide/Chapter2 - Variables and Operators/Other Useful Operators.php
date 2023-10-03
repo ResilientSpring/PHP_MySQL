@@ -7,3 +7,10 @@ $greeting = "We";
 // subtract 2 and re-assign new value to variable equivalent to $count = $count -2
 // output: 5
 $count -= 2;
+echo $count;
+
+// divide by 5 and re-assign new value to variable equivalent to $age = $age / 5
+// output: 12
+$age /= 5;
+echo $age;
+
