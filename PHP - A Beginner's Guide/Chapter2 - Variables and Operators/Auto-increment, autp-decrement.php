@@ -5,7 +5,7 @@ $count = 19;
 // increment
 $count++;
 
-echo $count;
+echo $count."<br>";
 
 // decrement
 $count--;
