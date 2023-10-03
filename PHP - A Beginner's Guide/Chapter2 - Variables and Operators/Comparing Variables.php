@@ -21,5 +21,13 @@ echo ($q >= $s);
 // return false
 echo ($r <= $s);
 
+// test if $q is equal to $s
+// return true
+echo ($q == $s);
+
+// test if $q is equal to $r
+// return false
+echo ($q == $r);
+
 ?>
 
