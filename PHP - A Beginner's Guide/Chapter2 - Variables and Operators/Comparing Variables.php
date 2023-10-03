@@ -17,5 +17,9 @@ echo ($q < $p);
 // return true
 echo ($q >= $s);
 
+// test if $r is less than or equal to $s
+// return false
+echo ($r <= $s);
 
+?>
 
