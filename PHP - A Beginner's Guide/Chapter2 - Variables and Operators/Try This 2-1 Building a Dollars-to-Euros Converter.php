@@ -14,7 +14,13 @@
 // define exchange rate 1.00 USD = 0.70 EUR
 define("EXCHANGE_RATE", 0.70);
 
+// define number of dollars
+$dollars = 150;
 
+// perform conversion and print result
+$euros = $dollars * EXCHANGE_RATE;
+
+echo "$dollars USD is equivalent to: $euros EUR";
 ?>
 
 </body>
