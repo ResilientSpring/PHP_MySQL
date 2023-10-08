@@ -17,7 +17,7 @@ define("EXCHANGE_RATE", 0.70);
 // define number of dollars
 $dollars = 150;
 
-// EXCHANGE_RATE is a constant, not variable.
+// EXCHANGE_RATE is a constant, not variable. Thus, need not $.
 $euros = $dollars * EXCHANGE_RATE;
 
 echo "$dollars USD is equivalent to: $euros EUR";
