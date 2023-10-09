@@ -18,9 +18,6 @@ echo "Your $color $type is ready. Safe driving!";
 
 ?>
 
-
 </body>
-
-
 </html>
 
