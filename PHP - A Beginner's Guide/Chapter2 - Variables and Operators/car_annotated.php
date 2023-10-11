@@ -1,6 +1,10 @@
 <html>
 
-<head><title></title></head>
+<head>
+    <title>
+        Result
+    </title>
+</head>
 
 <body>
 
