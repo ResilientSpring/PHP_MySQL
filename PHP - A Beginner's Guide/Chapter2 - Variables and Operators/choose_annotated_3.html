@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Annotated</title>
+</head>
+<body>
+
+<h2>Select Your Car</h2>
+
+<!--
+An HTML form is used to collect user input.
+The user input is most often sent to a server for processing.[1]
+
+HTML <form> element is used to create an HTML form for user input.[1]
+
+The <form> element is a container for different types of input elements,
+such as: text fields, checkboxes, radio buttons, submit buttons, etc.[1]
+
+-->
+<form method="post" action="car.php">
+    Type: <br>
+    <select name="selType">
+        <option value="Porsche 911">Porsche 911</option>
+        <option value="Volkswagen Beetle">Volkswagen Beetle</option>
+        <option value="Ford Taurus">Ford Taurus</option>
+    </select>
+    <p></p>
+    Color: <br>
+    <input type="text" name="txtColor" />
+
+    <p />
+
+    <input type="submit" /> <!--It defines a button for submitting the form data to a form-handler.-->
+    <input type="reset" />  <!--a reset button to reset all form values-->
+</form>
+
+</body>
+</html>
+
+<!--
+Reference:
+
+1. https://www.w3schools.com/html/html_forms.asp
+
+-->
