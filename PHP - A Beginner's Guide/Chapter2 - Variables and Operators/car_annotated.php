@@ -20,7 +20,7 @@
  * simple as referencing $_POST with the field's name.
  *
  * */
-$type = $_POST["selType"];
+$type = $_POST["Type_Selected"];
 $color = $_POST["txtColor"];
 
 // use form input
