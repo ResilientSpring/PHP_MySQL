@@ -8,7 +8,10 @@
 
 <?php
 
-// get from input
+/* Whenever a form is submitted to a PHP script through the POST method,
+   the form's input variables and their values automatically become available
+ * to
+ * */
 $type = $_POST["selType"];
 $color = $_POST["txtColor"];
 
