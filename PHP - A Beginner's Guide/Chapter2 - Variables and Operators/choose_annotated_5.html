@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Annotated</title>
+</head>
+<body>
+
+<h2>Select Your Car</h2>
+
+<!--
+An HTML form is used to collect user input.
+The user input is most often sent to a server for processing.[1]
+
+HTML <form> element is used to create an HTML form for user input.[1]
+
+The <form> element is a container for different types of input elements,
+such as: text fields, checkboxes, radio buttons, submit buttons, etc.[1]
+
+-->
+<form method="post" action="car_annotated.php">
+    Type: <br>
+
+    <!--
+    The name attribute is needed to reference the form data after the form is submitted
+    (if you omit the name attribute, no data from the drop-down list will be submitted).[4]
+    -->
+    <select name="Type_Selected">
+
+        <!--
+        Note: The <option> tag can be used without any attributes,
+        but you usually need the value attribute,
+        which indicates what is sent to the server on form submission.[2]
+        -->
+        <option value="Porsche 911">Porsche 911</option>
+        <option value="Volkswagen Beetle">Volkswagen Beetle</option>
+        <option value="Ford Taurus">Ford Taurus</option>
+    </select>
+    <p></p>
+    Color: <br>
+
+    <!--
+    Each input field must have a name attribute.
+    If the name attribute is omitted, the value of the input field will not be sent at all.[1]
+    -->
+    <input type="text" name="txtColor" />
+
+    <p />
+
+    <input type="submit" /> <!--It defines a button for submitting the form data to a form-handler.-->
+    <input type="reset" />  <!--a reset button to reset all form values.[3]-->
+</form>
+
+</body>
+</html>
+
+<!--
+Reference:
+
+1. https://www.w3schools.com/html/html_forms.asp
+2. https://www.w3schools.com/tags/tag_option.asp
+3. https://www.w3schools.com/html/html_form_input_types.asp
+4. https://www.w3schools.com/tags/tag_select.asp
+
+-->
