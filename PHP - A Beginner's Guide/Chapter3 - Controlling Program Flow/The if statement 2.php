@@ -5,3 +5,4 @@ $number = - 88;
 if ($number < 0)
     echo "That number is negative.";
 ?>
+
