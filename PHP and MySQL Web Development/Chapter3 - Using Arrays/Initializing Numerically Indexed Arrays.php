@@ -1,3 +1,5 @@
 <?php
 
 $products = array('Tires', 'Oil', 'Spark Plugs');
+
+$products2 = ['Tires', 'Oil', 'Spark Plugs']
