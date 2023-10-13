@@ -12,5 +12,9 @@ for ($i = 0; $i < 3; $i++){
     echo $products[$i];
 }
 
+for ($i = 0; $i < 3; $i++){
+    echo "<br>".$products2[$i]." ";
+}
+
 ?>
 
