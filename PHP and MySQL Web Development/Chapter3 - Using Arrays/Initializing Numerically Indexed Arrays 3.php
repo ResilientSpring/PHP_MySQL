@@ -16,5 +16,8 @@ for ($i = 0; $i < 3; $i++){
     echo "<br>".$products2[$i]." ";
 }
 
+foreach ($products2 as $current)
+    echo $current." ";
+
 ?>
 
