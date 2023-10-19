@@ -21,6 +21,8 @@ $rgb = $r.','.$g.','.$b;
 ?>
 
 R:<?php echo $r; ?>
+G:<?php echo $g; ?>
+B:<?php echo $b; ?>
 
 </body>
 
