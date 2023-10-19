@@ -1,1 +1,1 @@
-sammy = {""}
+sammy = {"username": 'sammy-shark', 'online': 'True'}
