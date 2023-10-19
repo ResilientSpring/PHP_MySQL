@@ -20,6 +20,8 @@ $b = $HTTP_GET_VARS['b'];
 $rgb = $r.','.$g.','.$b;
 ?>
 
+R:<?php echo $r; ?>
+
 </body>
 
 </html>
