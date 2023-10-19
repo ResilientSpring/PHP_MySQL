@@ -24,6 +24,10 @@ R:<?php echo $r; ?>
 G:<?php echo $g; ?>
 B:<?php echo $b; ?>
 
+<p/>
+
+<div style="width:150px; height:150px; background-color: rgb(<?php echo $rgb; ?>)"
+
 </body>
 
 </html>
