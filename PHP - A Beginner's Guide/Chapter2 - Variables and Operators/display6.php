@@ -19,7 +19,7 @@ $b = $_GET['b'];
 // generate RGB string from input
 $rgb = $r.','.$g.','.$b;
 
-echo $rgb
+echo "\$rgb is $rgb <br><br>";
 
 ?>
 
