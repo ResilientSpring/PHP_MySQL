@@ -12,9 +12,9 @@
 
 // get input values
 
-$r = $HTTP_GET_VARS['r'];
-$g = $HTTP_GET_VARS['g'];
-$b = $HTTP_GET_VARS['b'];
+$r = $_GET['r'];
+$g = $_GET['g'];
+$b = $_GET['b'];
 
 // generate RGB string from input
 $rgb = $r.','.$g.','.$b;

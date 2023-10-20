@@ -12,21 +12,23 @@
 
 // get input values
 
-$r = $HTTP_GET_VARS['r'];
-$g = $HTTP_GET_VARS['g'];
-$b = $HTTP_GET_VARS['b'];
+$r = $_GET['r'];
+$g = $_GET['g'];
+$b = $_GET['b'];
 
 // generate RGB string from input
 $rgb = $r.','.$g.','.$b;
 ?>
 
-R:<?php echo $r; ?>
-G:<?php echo $g; ?>
-B:<?php echo $b; ?>
+R:<?php echo $r; ?> &nbsp;&nbsp;
+G:<?php echo $g; ?> &nbsp;&nbsp;
+B:<?php echo $b; ?> &nbsp;&nbsp;
 
 <p/>
 
-<div style="width:150px; height:150px; background-color: rgb(<?php echo $rgb; ?>)"></div>
+<div style="width:150px; height:150px; background-color: rgb(<?php echo $rgb; ?>)">
+
+</div>
 
 </body>
 
