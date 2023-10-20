@@ -29,7 +29,7 @@ B:<?php echo $b; ?> &nbsp;&nbsp;
 
 <p/>
 
-<div style="width:150px; height:150px; background-color: rgb(<?php $r, $g, $b; ?>)">
+<div style="width:150px; height:150px; background-color: rgb(<?php echo "$r, $g, $b"; ?>)">
 
 </div>
 
