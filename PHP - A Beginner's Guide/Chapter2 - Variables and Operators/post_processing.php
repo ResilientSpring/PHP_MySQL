@@ -14,6 +14,10 @@ $targeted_money = $_POST['target_money'];
 
 ?>
 
+<p>
 
+    <?php echo $amount_to_be_converted." ".$original_money   ?> equal
+
+</p>
 
 </html>
