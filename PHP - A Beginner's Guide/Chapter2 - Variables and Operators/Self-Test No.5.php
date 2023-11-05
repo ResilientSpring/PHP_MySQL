@@ -7,4 +7,6 @@ print "<br>";
 $whirlwind = 5;
 $protracted = 2.3;
 
-print $whirlwind." ".$protracted;
+print "\$whirlwind is ".$whirlwind.", \$protracted is ".$protracted;
+
+
