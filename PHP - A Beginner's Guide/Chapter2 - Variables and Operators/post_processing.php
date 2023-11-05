@@ -17,7 +17,7 @@ $targeted_money = $_POST['target_money'];
 <p>
 
     <?php echo $amount_to_be_converted." of ".$original_money ?> equal
-    <?php echo $exchange_rate * $exchange_rate?> of
+    <?php echo $amount_to_be_converted * $exchange_rate?> of
     <?php echo " ".$targeted_money?>s.
 
 </p>
