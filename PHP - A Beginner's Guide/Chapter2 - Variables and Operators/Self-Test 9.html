@@ -11,7 +11,14 @@ are supplied by the user through a Web form.
 
 <form method="post" action="post_processing.php">
 
-    Exchange rate:<input type="text" name="exchange_rate" size="3"/><br>
+    Exchange rate: 1 &nbsp;
+    <input type="text" name="original_money" size="3"/>
+    equals &nbsp;
+    <input type="text" name="exchange_rate" size="3"/>
+    &nbsp;
+    <input type="text" name="target_money" size="3"/>
+
+    <br>
     The amount to be converted:<input type="text" name="amount" size="3"/><br>
 
     <input type="submit" value="Show me!"/>
