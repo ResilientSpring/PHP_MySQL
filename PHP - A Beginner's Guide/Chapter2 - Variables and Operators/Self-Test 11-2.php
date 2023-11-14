@@ -17,5 +17,5 @@ echo "Your interests include: <br>";
 
 echo $interest;
 
-foreach ($interest as $activity)
-    echo $activity."<br>";
+foreach ($interest as $value)
+    echo $value."<br>";
