@@ -7,4 +7,4 @@ $selection_list = $_POST["selection_list"];
 
 echo "Your selection is ".$selection_list;
 
-
+$radio_buttons = $_POST["radio_buttons"];
