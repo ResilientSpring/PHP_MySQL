@@ -13,7 +13,7 @@ echo "Your favorite season is ".$season.".<br>";
 
 $interest = $_POST["interest"];
 
-echo "Your interests include $interest".".<br>";
+echo "Your interests include: <br>";
 
 foreach ($interest as $activity)
     echo $activity."<br>";
