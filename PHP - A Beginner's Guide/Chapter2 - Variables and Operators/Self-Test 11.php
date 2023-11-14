@@ -10,3 +10,5 @@ echo "Your selection is ".$selection_list.".<br>";
 $radio_buttons = $_POST["radio_buttons"];
 
 echo "Your chosen radio button is ".$radio_buttons.".<br>";
+
+
