@@ -11,4 +11,8 @@ $season = $_POST["season"];
 
 echo "Your favorite season is ".$season.".<br>";
 
+$interest = $_POST["interest"];
+
+echo "Your interests include $interest".".<br>";
+
 
