@@ -15,5 +15,7 @@ $interest = $_POST["interest"];
 
 echo "Your interests include: <br>";
 
+echo $interest;
+
 foreach ($interest as $activity)
     echo $activity."<br>";
