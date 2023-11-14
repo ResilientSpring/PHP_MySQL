@@ -15,7 +15,4 @@ $interest = $_POST["interest"];
 
 echo "Your interests include: <br>";
 
-echo $interest;
-
-foreach ($interest as $value)
-    echo $value."<br>";
+print_r($interest);
