@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Self-Test 11</title>
+</head>
+<body>
+
+<form method="post" action="Self-Test 11-5.php">
+
+    Account name:<br>
+    <input type="text" name="text_input_field"/><p/>
+    <input type="hidden" name="hidden_field"/>
+
+    Password: <br>
+    <input type="password" name="password_field"/><p/>
+
+    Email: <br>
+    <input type="email" name="text_area" /><p/>
+
+    Dropdown list: <br>
+    <select name="selection_list">
+
+        <option value="whirlwind">Whirlwind</option>
+        <option value="implicate">Implicate</option>
+        <option value="clamp_down">Clamp down on something</option>
+        <option value="draw_into">draw into</option>
+
+    </select>
+
+    <p/>
+
+    Radio buttons:<br>
+
+    <!--A radio group is defined by giving each of radio buttons in the group the same name-->
+    <input type="radio" name="season" value="winter" id="ID_winter" checked />
+    <!--The value attribute is a string containing the radio button's value.
+    The value is never shown to the user by their user agent.
+    Instead, it's used to identify which radio button in a group is selected.-->
+
+    <label for="ID_winter">Winter</label>
+
+    <input type="radio" name="season" value="springer" id="ID_spring" />
+
+    <label for="ID_spring">Spring</label>
+
+    <input type="radio" name="season" value="summer" id="ID_summer" />
+
+    <label for="ID_summer">Summer</label>
+
+    <input type="radio" name="season" value="autumn" id="ID_autumn" />
+
+    <label for="ID_autumn">Autumn</label>
+
+    <p></p>
+
+    <fieldset>
+        <legend>Check Box</legend>
+
+        Choose your interests:
+
+        <div>
+            <input type="checkbox" id="ID_coding" name="interest[]" value="coding" checked />
+            <label for="ID_coding">Coding</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="ID_music" name="interest[]" value="music" />
+            <label for="ID_music">Music</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="interest[]" id="ID_Reading" value="reading" />
+            <label for="ID_Reading">Reading</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="interest[]" id="ID_Jogging" value="jogging" />
+            <label for="ID_Jogging">Jogging</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="interest[]" id="ID_Biking" value="biking" />
+            <label for="ID_Biking">Biking</label>
+        </div>
+
+    </fieldset>
+
+    <br>
+
+    <input type="submit" value="Submit the form"/>
+    <input type="reset" value="Reset the form" />
+
+    <p></p>
+
+</form>
+
+</body>
+</html>
+
+Reference:
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio
