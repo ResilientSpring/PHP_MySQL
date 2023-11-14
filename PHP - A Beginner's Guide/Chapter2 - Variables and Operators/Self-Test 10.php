@@ -11,8 +11,10 @@ $fahrenheit = (9/5) * $celsius + 32;
 
 <script>
 
-    document.write(<?php print $fahrenheit?>"<span style="text-transform:uppercase">o</span>F");
+//    document.write(<?php print $fahrenheit?>"<span style="text-transform:uppercase">o</span>F");
 
 </script>
+
+
 
 </html>
