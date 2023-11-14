@@ -7,8 +7,8 @@ $selection_list = $_POST["selection_list"];
 
 echo "Hi, $text_input_field! Your selection is ".$selection_list.".<br>";
 
-$radio_buttons = $_POST["radio_buttons"];
+$season = $_POST["season"];
 
-echo "Your chosen radio button is ".$radio_buttons.".<br>";
+echo "Your favorite season is ".$season.".<br>";
 
 
