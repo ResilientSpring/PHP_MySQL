@@ -6,28 +6,28 @@
 
 <body>
 
-    <h2>Project 3-1: Odd/Even Number Tester</h2>
+<h2>Project 3-1: Odd/Even Number Tester</h2>
 
 <?php
 
 // if form not yet submitted, display form
 if (!isset($_POST['submit'])) {
 
-?>
+    ?>
 
-<form method="post" action="Try%20This%203-1%20Testing%20Odd%20and%20Even%20Numbers.php">
+    <form method="post" action="Try%20This%203-1%20Testing%20Odd%20and%20Even%20Numbers.php">
 
-    Enter value: <br>
+        <label for="hi">Enter value: <br></label>
 
-    <input type="text" name="num" size="3" />
+        <input type="text" name="num" size="3" id="hi" />
 
-    <p></p>
+        <p></p>
 
-    <input type="submit" name="submit" value="Submit" />
+        <input type="submit" name="submit" value="Submit" />
 
-</form>
+    </form>
 
-<?php
+    <?php
 
 // if form submitted, process form input
 

@@ -6,28 +6,28 @@
 
 <body>
 
-    <h2>Project 3-1: Odd/Even Number Tester</h2>
+<h2>Project 3-1: Odd/Even Number Tester</h2>
 
 <?php
 
 // if form not yet submitted, display form
 if (!isset($_POST['submit'])) {
+  // isset() checks if a variable is not null.[1]
+    ?>
 
-?>
+    <form method="post" action="Try%20This%203-1%20Testing%20Odd%20and%20Even%20Numbers.php">
 
-<form method="post" action="Try%20This%203-1%20Testing%20Odd%20and%20Even%20Numbers.php">
+        <label for="hi">Enter value: <br></label>
 
-    Enter value: <br>
+        <input type="text" name="num" size="3" id="hi" />
 
-    <input type="text" name="num" size="3" />
+        <p></p>
 
-    <p></p>
+        <input type="submit" name="submit" value="Submit" />
 
-    <input type="submit" name="submit" value="Submit" />
+    </form>
 
-</form>
-
-<?php
+    <?php
 
 // if form submitted, process form input
 
@@ -46,6 +46,13 @@ if (!isset($_POST['submit'])) {
 }
 ?>
 
-
 </body>
 </html>
+
+<!--
+
+References:
+
+1. https://www.w3schools.com/php/php_ref_keywords.asp
+
+-->
