@@ -13,6 +13,8 @@ echo "Your favorite season is ".$season.".<br>";
 
 $interest = $_POST["interest"];
 
+print_r($interest);
+
 echo "Your interests include: <br>";
 
-print_r($interest);
+
