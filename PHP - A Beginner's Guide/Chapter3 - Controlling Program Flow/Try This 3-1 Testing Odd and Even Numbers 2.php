@@ -17,10 +17,9 @@ if (!isset($_POST['submit'])) {
 
     <form method="post" action="Try%20This%203-1%20Testing%20Odd%20and%20Even%20Numbers.php">
 
-        Enter value: <br>
+        <label for="hi">Enter value: <br></label>
 
         <input type="text" name="num" size="3" id="hi" />
-        <label for="hi"></label>
 
         <p></p>
 
