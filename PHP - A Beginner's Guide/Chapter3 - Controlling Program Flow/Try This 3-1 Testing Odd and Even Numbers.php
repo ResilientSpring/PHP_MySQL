@@ -21,6 +21,10 @@ if (isset($_POST['submit'])) {
 
     <input type="text" name="num" size="3" />
 
+    <p></p>
+
+    <input type="submit" name="submit" value="Submit" />
+
 </form>
 
 
