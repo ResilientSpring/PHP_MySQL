@@ -10,7 +10,7 @@
 
 <?php
 
-// if $_POST['submit'] is not NOT null, display form
+// if $_POST['submit'] is NOT not null, display form
 if (!isset($_POST['submit'])) {
     // isset() checks if a variable is not null.[1]
     ?>
