@@ -9,10 +9,13 @@ echo "Hi, $text_input_field! Your selection is ".$selection_list.".<br>";
 
 $season = $_POST["season"];
 
-echo "Your favorite season is ".$season.".<br>";
+echo "Your favorite season is ".$season.".<br><br>";
 
 $interest = $_POST["interest"];
 
-echo "Your interests include: <br>";
-
 print_r($interest);
+
+echo "<br><br>Your interests include: <br>";
+
+foreach ($interest as $value)
+    echo $value."<br>";
