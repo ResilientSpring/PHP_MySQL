@@ -34,6 +34,7 @@ if (!isset($_POST['submit'])) {
 } else {
 
     print_r($_POST['submit']);
+    echo $_POST['submit'];
 
     // retrieve number from POST submission
     $num = $_POST['num'];
