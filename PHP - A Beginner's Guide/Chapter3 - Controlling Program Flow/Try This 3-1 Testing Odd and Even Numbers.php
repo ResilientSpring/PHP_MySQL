@@ -11,7 +11,7 @@
 <?php
 
 // if form not yet submitted, display form
-if (isset($_POST['submit'])) {
+if (!isset($_POST['submit'])) {
 
 ?>
 
