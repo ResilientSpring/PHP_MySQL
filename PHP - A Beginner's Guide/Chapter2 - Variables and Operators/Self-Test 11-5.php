@@ -17,4 +17,5 @@ print_r($interest);
 
 echo "Your interests include: <br>";
 
-
+foreach ($interest as $value)
+    echo $value."<br>";
