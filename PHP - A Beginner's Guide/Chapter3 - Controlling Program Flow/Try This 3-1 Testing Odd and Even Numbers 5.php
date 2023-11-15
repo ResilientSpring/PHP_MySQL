@@ -42,7 +42,7 @@ if (!isset($_POST['submit'])) {
     if (($num % 2) == 0)
         echo 'You entered '.$num.', which is an even number.';
     else
-        echo 'You entered'.$num.', which is an odd number';
+        echo 'You entered '.$num.', which is an odd number';
 
 }
 ?>
