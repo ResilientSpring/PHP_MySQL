@@ -27,8 +27,20 @@ if (isset($_POST['submit'])) {
 
 </form>
 
+<?php
+
+// if form submitted, process form input
+
+} else {
+
+    // retrieve number from POST submission
+    $num = $_POST['num'];
+
+}
+
+
+?>
+
 
 </body>
-
-
 </html>
