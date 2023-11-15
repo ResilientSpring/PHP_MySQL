@@ -12,7 +12,7 @@
 
 // if $_POST['submit'] is NOT not null, display form
 if (!isset($_POST['submit'])) {
-    // isset() checks if a variable is not null.[1]
+  // isset() checks if a variable is not null.[1]
     ?>
 
     <form method="post" action="Try%20This%203-1%20Testing%20Odd%20and%20Even%20Numbers.php">
