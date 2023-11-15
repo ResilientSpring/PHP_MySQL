@@ -38,8 +38,7 @@ if (!isset($_POST['submit'])) {
     // retrieve number from POST submission
     $num = $_POST['num'];
 
-    // test value for even-ness
-    // display appropriate message
+    // test value for even-ness and display appropriate message
     if (($num % 2) == 0)
         echo 'You entered '.$num.', which is an even number.';
     else
