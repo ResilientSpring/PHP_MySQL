@@ -15,4 +15,6 @@ elseif ($today == 'Thursday')
     echo 'Thursday\'s child has far to go.';
 elseif ($today == 'Friday')
     echo 'Friday\'s child is loving and giving.';
+elseif ($today == 'Saturday')
+    echo "Saturday's child works hard for a living";
 
