@@ -17,4 +17,6 @@ elseif ($today == 'Friday')
     echo 'Friday\'s child is loving and giving.';
 elseif ($today == 'Saturday')
     echo "Saturday's child works hard for a living";
+else
+    echo "No information available for that day";
 
