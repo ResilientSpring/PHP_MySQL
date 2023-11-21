@@ -5,7 +5,7 @@
 
 $today = 'Tuesday';
 
-if ($today = 'Monday')
+if ($today == 'Monday')
     echo 'Monday\'s child is fair of face.';
 elseif ($today == 'Tuesday')
     echo 'Tuesday\'s child is full of grace.';
