@@ -18,8 +18,8 @@ if (!isset($_POST["submit"])) {
 
     <form method="post" action="Try%20This%203-2%20Assigning%20Boy%20Scouts%20to%20Tents.php">
 
-        Enter your age: <br>
-        <input type="text" name="age" size="3" />
+        <label for="age_field">Enter your age: </label> <br>
+        <input type="text" id="age_field" name="age" size="3" />
 
         <p></p>
 
