@@ -52,6 +52,7 @@ if (!isset($_POST["submit"])) {
 
 }
 
+echo "Bonus should be $bonus";
 
 ?>
 
