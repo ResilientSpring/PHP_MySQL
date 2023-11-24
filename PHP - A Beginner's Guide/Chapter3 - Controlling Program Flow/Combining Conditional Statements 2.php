@@ -17,7 +17,7 @@ if (!isset($_get["submit"])) {
 
     <p>Please fill the form beneath to proceed.</p>
 
-    <form method="get" action="Combining%20Conditional%20Statements.php">
+    <form method="get" action="Combining%20Conditional%20Statements%202.php">
 
         <label for="rating">Rating: </label><br>
         <input id="rating" type="text" name="rating"/>
