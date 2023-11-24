@@ -38,7 +38,17 @@ if (!isset($_POST["submit"])) {
 
     $bonus = 0;
 
+    if ($rating >= 3){
 
+        if ($current_salary < 15000)
+
+            $bonus = 5000;
+    }else{
+
+        if ($current_salary < 15000)
+            $bonus = 3000;
+
+    }
 
 }
 
