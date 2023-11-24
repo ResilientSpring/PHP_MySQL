@@ -21,6 +21,8 @@ if (!isset($_POST["submit"])) {
         <label for="rating">Rating: </label><br>
         <input id="rating" type="text" name="$rating"/>
 
+        <p></p>
+
         <label for="current_salary">Current salary: </label><br>
         <input id="current_salary" type="text" name="current_salary"/>
 
