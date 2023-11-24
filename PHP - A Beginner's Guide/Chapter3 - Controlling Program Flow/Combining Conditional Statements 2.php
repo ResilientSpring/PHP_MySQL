@@ -20,12 +20,12 @@ if (!isset($_POST["submit"])) {
     <form method="post" action="Combining%20Conditional%20Statements.php">
 
         <label for="rating_">Rating: </label><br>
-        <input id="rating_" type="text" name="$rating"/>
+        <input id="rating" type="text" name="$rating"/>
 
         <p></p>
 
         <label for="current_salary_">Current salary: </label><br>
-        <input id="current_salary_" type="text" name="current_salary"/>
+        <input id="current_salary" type="text" name="current_salary"/>
 
         <p>
 
