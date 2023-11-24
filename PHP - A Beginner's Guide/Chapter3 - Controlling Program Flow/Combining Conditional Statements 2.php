@@ -27,6 +27,10 @@ if (!isset($_POST["submit"])) {
         <label for="current_salary_">Current salary: </label><br>
         <input id="current_salary_" type="text" name="current_salary"/>
 
+        <p>
+
+        </p>
+
         <input type="submit" name="submit" value="Submit"/>
 
     </form>
