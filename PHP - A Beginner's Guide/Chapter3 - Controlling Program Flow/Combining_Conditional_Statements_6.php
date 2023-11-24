@@ -10,11 +10,11 @@
 
 if (!isset($_POST["submit"])) {
 
-    echo "
+    print ('
 
-    <h3>Let's see if your entered year is a leap year.</h3>
+    <h3>Let\'s see if your entered year is a leap year.</h3>
 
-    <form method="post" action="Combining_Conditional_Statements_5.php">
+    <form method="post" action="Combining_Conditional_Statements_6.php">
 
         <label for="year">Year: </label><br>
         <input type="text" name="year" id="year" size="15"/>
@@ -24,7 +24,7 @@ if (!isset($_POST["submit"])) {
 
     </form>
 
-";
+');
 
 } else{
 
