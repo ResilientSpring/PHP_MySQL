@@ -17,7 +17,10 @@ if (!isset($_POST["submit"])) {
     <form method="post" action="Combing_Conditional_Statements_3.php">
 
         <label for="year">Year: </label><br>
-        <input type="text" name="year" id="year" size="5"/>
+        <input type="text" name="year" id="year" size="15"/>
+
+        <input type="submit" name="submit" value="Submit!"/>
+        <input type="reset" name="reset" value="Reset" />
 
     </form>
 
