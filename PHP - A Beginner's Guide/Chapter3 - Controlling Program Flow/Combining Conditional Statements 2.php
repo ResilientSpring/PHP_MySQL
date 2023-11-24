@@ -11,13 +11,13 @@
 
 <?php
 
-if (!isset($_POST["submit"])) {
+if (!isset($_get["submit"])) {
 
     ?>
 
     <p>Please fill the form beneath to proceed.</p>
 
-    <form method="post" action="Combining%20Conditional%20Statements.php">
+    <form method="get" action="Combining%20Conditional%20Statements.php">
 
         <label for="rating">Rating: </label><br>
         <input id="rating" type="text" name="rating"/>
@@ -38,8 +38,8 @@ if (!isset($_POST["submit"])) {
 
 } else {
 
-    $current_salary = $_POST["current_salary"];
-    $rating = $_POST["rating"];
+    $current_salary = $_get["current_salary"];
+    $rating = $_get["rating"];
 
     $bonus = 0;
 
