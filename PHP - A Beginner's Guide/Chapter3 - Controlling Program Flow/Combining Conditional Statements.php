@@ -4,7 +4,8 @@
 
 <body>
 
-
+<h3>Welcome to the bonus calculator!</h3>
+<p>Please fill the form beneath to proceed.</p>
 
 <?php
 
