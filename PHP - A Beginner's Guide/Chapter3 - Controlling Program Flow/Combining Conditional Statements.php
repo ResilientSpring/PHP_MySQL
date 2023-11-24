@@ -1,6 +1,9 @@
 <html>
+<head>
 
-<title>Bonus calculator</title>
+    <title>Bonus calculator</title>
+
+</head>
 
 <body>
 
@@ -27,6 +30,10 @@ if (!isset($_POST["submit"])){
 
 
 <?php
+
+} else{
+
+
 
 }
 
