@@ -33,6 +33,12 @@ if (!isset($_POST["submit"])) {
 
 } else {
 
+    $current_salary = $_POST["current_salary"];
+    $rating = $_POST["rating"];
+
+    $bonus = 0;
+
+
 
 }
 
