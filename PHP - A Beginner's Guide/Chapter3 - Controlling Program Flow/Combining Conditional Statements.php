@@ -8,13 +8,14 @@
 <body>
 
 <h3>Welcome to the bonus calculator!</h3>
-<p>Please fill the form beneath to proceed.</p>
 
 <?php
 
 if (!isset($_POST["submit"])) {
 
     ?>
+
+    <p>Please fill the form beneath to proceed.</p>
 
     <form method="post" action="Combining%20Conditional%20Statements.php">
 
