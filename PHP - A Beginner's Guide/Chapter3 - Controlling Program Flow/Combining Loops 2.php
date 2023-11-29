@@ -26,9 +26,11 @@ for ($row = 1; $row < 4; $row++) {
 
     echo "</tr>";
 
+    // The end result is a table with three rows, each containing four cells.
 }
 
 echo "</table>";
+
 
 ?>
 
