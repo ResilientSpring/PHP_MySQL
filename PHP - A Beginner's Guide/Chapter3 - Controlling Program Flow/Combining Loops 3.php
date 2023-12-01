@@ -14,7 +14,6 @@
 
 echo "<table border=\"1\" >";
 
-// The outer loop is responsible for generating the table rows, and it runs 3 times.
 for ($row = 1; $row < 4; $row++) {
     echo "<tr>";   // <tr> is short for table row.
 
