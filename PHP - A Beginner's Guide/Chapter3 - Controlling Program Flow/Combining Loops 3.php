@@ -17,9 +17,7 @@ echo "<table border=\"1\" >";
 for ($row = 1; $row < 4; $row++) {
     echo "<tr>";   // <tr> is short for table row.
 
-    // On each iteration of the outer loop, the inner loop is also triggered;
-    // this loop is responsible for generating the cells within each row, and
-    // it runs four times.
+    // <td> stands for table data.[1]
     for ($col = 1; $col < 5; $col++)
         echo "<td>Row $row, Column $col </td>";
 
@@ -35,3 +33,11 @@ echo "</table>";
 
 </body>
 </html>
+
+<!--
+
+References:
+
+1. https://www.w3schools.com/html/html_tables.asp
+
+-->
