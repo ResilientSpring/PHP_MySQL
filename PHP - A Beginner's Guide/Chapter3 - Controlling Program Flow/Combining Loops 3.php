@@ -9,25 +9,20 @@
 
 <?php
 
-// generate an HTML table
-// 3 rows, 4 columns
-
+// generate a HTML table
 echo "<table border=\"1\" >";
 
 for ($row = 1; $row < 4; $row++) {
     echo "<tr>";   // <tr> is short for table row.
 
-    // <td> stands for table data.[1]
     for ($col = 1; $col < 5; $col++)
-        echo "<td>Row $row, Column $col </td>";
+        echo "<td>Row $row, Column $col </td>";// <td> stands for table data.[1]
 
     echo "</tr>";
-
-    // The end result is a table with three rows, each containing four cells.
 }
+// The end result is a table with three rows, each containing four cells.
 
 echo "</table>";
-
 
 ?>
 
