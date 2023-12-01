@@ -15,8 +15,8 @@ echo "<table border=\"1\" >";
 for ($row = 1; $row < 4; $row++) {
     echo "<tr>";   // <tr> is short for table row.
 
-    for ($col = 1; $col < 5; $col++)
-        echo "<td>Row $row, Column $col </td>";// <td> stands for table data.[1]
+    for ($column = 1; $column < 5; $column++)
+        echo "<td>Row $row, Column $column </td>"; // <td> stands for table data.[1]
 
     echo "</tr>";
 }
