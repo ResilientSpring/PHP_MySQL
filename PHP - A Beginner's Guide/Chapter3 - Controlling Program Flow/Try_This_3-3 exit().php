@@ -8,6 +8,8 @@
 
 <h2>Project 3-3:Factorial Calculator</h2>
 
+Let's see whether the addition of exit() has an effect.
+
 <?php
 
 if(!isset($_POST['submit'])){
