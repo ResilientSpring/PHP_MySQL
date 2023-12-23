@@ -29,7 +29,6 @@ if(!isset($_POST['submit'])){
 
     if ($num <= 0){
         echo 'ERROR: Please enter a number greater than 0';
-        exit();
     }
 
     $factorial = 1;
