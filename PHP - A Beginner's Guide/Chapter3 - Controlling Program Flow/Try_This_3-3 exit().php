@@ -8,11 +8,13 @@
 
 <h2>Project 3-3:Factorial Calculator</h2>
 
+Let's see whether the addition of exit() has an effect. <br><br>
+
 <?php
 
 if(!isset($_POST['submit'])){
 
-?>
+    ?>
 
     <form method="post" action="Try_This_3-3.php">
         Enter a number: <br>
@@ -21,7 +23,7 @@ if(!isset($_POST['submit'])){
         <input type="submit" name="submit" value="Submit" />
     </form>
 
-<?php
+    <?php
 
 } else{
 
@@ -29,7 +31,6 @@ if(!isset($_POST['submit'])){
 
     if ($num <= 0){
         echo 'ERROR: Please enter a number greater than 0';
-        exit();
     }
 
     $factorial = 1;
