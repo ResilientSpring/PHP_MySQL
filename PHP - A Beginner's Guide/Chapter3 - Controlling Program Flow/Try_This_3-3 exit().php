@@ -8,7 +8,7 @@
 
 <h2>Project 3-3:Factorial Calculator</h2>
 
-Let's see whether the addition of exit() has an effect.
+Let's see whether the addition of exit() has an effect. <br>
 
 <?php
 
