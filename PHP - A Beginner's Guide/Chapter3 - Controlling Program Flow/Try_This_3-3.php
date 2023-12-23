@@ -32,6 +32,13 @@ if(!isset($_POST['submit'])){
         exit();
     }
 
+    $factorial = 1;
+
+    for ($x = $num; $x >=1; $x--)
+        $factorial  *= $x;
+
+    echo "Factorial of $num is: $factorial";
+
 }
 
 
