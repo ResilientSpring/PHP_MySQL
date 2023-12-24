@@ -9,3 +9,4 @@ echo substr($str, 2, 1);
 echo "<br>";
 
 
+echo $str{2};
