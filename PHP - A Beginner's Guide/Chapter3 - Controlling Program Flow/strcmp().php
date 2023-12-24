@@ -1,12 +1,11 @@
 <?php
 
-$str = 'abracadabra';
+$a = 'hello';
+$b = 'hello';
+$c = 'hEllo';
 
-echo substr($str, 2, 1);
-
-
+echo strcmp($a, $b);
 
 echo "<br>";
 
-
-echo $str{2};
+echo strcmp($a, $c);
