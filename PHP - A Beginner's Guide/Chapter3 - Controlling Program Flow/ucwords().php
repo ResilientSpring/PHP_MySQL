@@ -2,4 +2,4 @@
 
 $str = 'the yellow brigands';
 
-echo ucfirst($str);
+echo ucwords($str);
