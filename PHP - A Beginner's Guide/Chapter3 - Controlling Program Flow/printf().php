@@ -4,8 +4,14 @@
 
 printf("%05d", 65);
 
-printf("%09.3f", 239)."<br>";
+print "<br>";
 
-printf("%4o", 8)."<br>";
+printf("%09.3f", 239);
+
+print "<br>";
+
+printf("%4o", 8);
+
+print "<br>";
 
 printf("I see %4d apples and %4.2f oranges", 8, 26);
