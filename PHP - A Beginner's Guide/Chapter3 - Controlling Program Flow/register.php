@@ -13,6 +13,7 @@
 $name = $_POST["name"];
 $address = $_POST["address"];
 $age = $_POST["age"];
+$profession = $_POST["profession"];
 
 ?>
 
