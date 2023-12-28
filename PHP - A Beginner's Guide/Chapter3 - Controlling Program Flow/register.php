@@ -32,6 +32,9 @@ elseif ($age < 18 || $age > 60 )
 if (empty($profession))
     die("ERROR: Please provide your profession.");
 
+if (strcmp($resident, 'no') == 0)
+    die("ERROR: Membership is only open to residents.");
+
 ?>
 
 
