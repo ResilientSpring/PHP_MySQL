@@ -24,6 +24,11 @@ if (empty($name))
 if (empty($address))
     die("ERROR: Please provide your address.");
 
+if (empty($age))
+    die("ERROR: Please provide your age");
+elseif ($age < 18 || $age > 60 )
+    die("ERROR: Membership is only open to those between 18 and 60 years.");
+
 ?>
 
 
