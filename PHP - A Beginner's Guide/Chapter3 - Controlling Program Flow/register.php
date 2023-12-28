@@ -16,6 +16,10 @@ $age = $_POST["age"];
 $profession = $_POST["profession"];
 $resident = $_POST["resident"];
 
+// validate submitted data
+if (empty($name))
+    die("ERROR: Please provide your name.");
+
 ?>
 
 
