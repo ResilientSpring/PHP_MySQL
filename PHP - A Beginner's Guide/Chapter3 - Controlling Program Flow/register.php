@@ -37,6 +37,14 @@ if (strcmp($resident, 'no') == 0)
 
 
 $to = 'registration@some.domain.com';
+$from = 'webmaster@some.domain.com';
+$subject = 'Application for membership';
+$body = "Name: $name\r\nAddress: $address\r\nAge: $age\r\nProfession: $profession\r\n";
+
+if (mail($to, $subject, $body, "From: $from"))
+    echo "Thank you for your application.";
+else
+    die("ERROR: Mail delivery error.");
 
 ?>
 
