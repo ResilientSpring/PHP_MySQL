@@ -35,6 +35,9 @@ if (empty($profession))
 if (strcmp($resident, 'no') == 0)
     die("ERROR: Membership is only open to residents.");
 
+
+$to = 'registration@some.domain.com';
+
 ?>
 
 
