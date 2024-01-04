@@ -1,4 +1,8 @@
 <?php
+
+/*Sending mail with extra headers.*/
+
+
 $to      = 'nobody@example.com';
 $subject = 'the subject';
 $message = 'hello';
