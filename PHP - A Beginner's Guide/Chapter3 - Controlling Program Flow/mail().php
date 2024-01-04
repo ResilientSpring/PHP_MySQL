@@ -1,4 +1,7 @@
 <?php
+
+/* Using mail() to send a simple email: */
+
 // The message
 $message = "Line 1\r\nLine 2\r\nLine 3";
 
