@@ -12,4 +12,8 @@ $headers = array(
 );
 
 mail($to, $subject, $message, $headers);
+
+
+// Source: https://www.php.net/manual/en/function.mail.php
+
 ?>
