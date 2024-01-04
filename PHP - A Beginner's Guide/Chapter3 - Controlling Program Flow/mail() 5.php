@@ -45,6 +45,11 @@ $headers[] = 'Bcc: birthdaycheck@example.com';
 mail($to, $subject, $message, implode("\r\n", $headers));
 
 
+// Note:
+//If intending to send HTML or otherwise Complex mails, it is recommended to use the PEAR package
+// » PEAR::Mail_Mime.
 
+
+// Source: https://www.php.net/manual/en/function.mail.php
 
 ?>
