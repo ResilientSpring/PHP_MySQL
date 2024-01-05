@@ -2,7 +2,7 @@
 
 $city = "Minneapolis";
 
-if ($city == "Mineapolis")
+if ($city == "Minneapolis")
     echo "The \$city is Minneapolis";
 else
     echo "The \$city is not Minneapolis";
