@@ -7,5 +7,5 @@ echo htmlentities($html);
 $lines = 'This is a bro
              ken line';
 
-
+echo nl2br($lines);
 
