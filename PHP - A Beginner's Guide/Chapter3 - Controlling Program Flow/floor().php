@@ -1,6 +1,6 @@
 <?php
 $num = 19.7;
 
-echo floor($num)."\n";
+echo floor($num);
 
 echo ceil($num);
