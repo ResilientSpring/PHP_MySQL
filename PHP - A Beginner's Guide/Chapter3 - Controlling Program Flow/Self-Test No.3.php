@@ -2,7 +2,7 @@
 
 $multiplier = 1;
 
-do{
-    echo "8 x $multiplier = ". 8 * $multiplier."<br>";
+do {
+    echo "8 x $multiplier = " . 8 * $multiplier . "<br>";
     $multiplier++;
-}while($multiplier <= 10);
+} while ($multiplier <= 10);
