@@ -6,6 +6,7 @@ while ($multiplier <= 10){
 
     echo "8 x $multiplier = ";
     echo 8 * $multiplier;
+    echo "<br>";
 
     $multiplier++;
 
