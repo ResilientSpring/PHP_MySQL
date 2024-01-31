@@ -7,3 +7,6 @@ $cars = array("Ferrari", "Porsche", "Jaguar", "Lamborghini", "Mercedes");
 $cars_2 = ["Ferrari", "Porsche", "Jaguar", "Lamborghini", "Mercedes"];
 
 $cars_3[10] = ["Ferrari", "Porsche", "Jaguar", "Lamborghini", "Mercedes", "TOYOTA"];
+
+$cars_4[] = "Ferrari";
+$cars_4[] = "Lamborghini";
