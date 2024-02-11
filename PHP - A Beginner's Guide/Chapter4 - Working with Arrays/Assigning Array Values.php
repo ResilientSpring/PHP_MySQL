@@ -13,3 +13,7 @@ $cars3[] = 'Ferrari';
 $cars3[] = 'Lamborghini';
 
 $data = array('username' => 'John', 'password' => 'secret', 'host' => '192.168.0.1');
+
+$data2['username'] = 'John';
+$data2['password'] = 'secret';
+$data2['host'] = '192.168.0.1';
