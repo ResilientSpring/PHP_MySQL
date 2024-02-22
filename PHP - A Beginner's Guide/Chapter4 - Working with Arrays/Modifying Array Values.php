@@ -13,3 +13,9 @@ unset($meats[0]);
 for ($i = 0; $i < count($meats); $i++)
     echo $meats[$i]."<br>";
 
+
+array_multisort($meats);
+
+for ($i = 0; $i < count($meats) ; $i++)
+    echo $meats[$i]."<br>";
+
