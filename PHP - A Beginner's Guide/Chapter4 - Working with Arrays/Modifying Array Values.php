@@ -1,5 +1,5 @@
 <?php
 
-$meat = array("fish", "chicken", "ham", "lamb");
+$meats = array("fish", "chicken", "ham", "lamb");
 
-$meat[2] = "turkey";
+$meats[2] = "turkey";
