@@ -10,3 +10,5 @@ for ($i = 0; $i < sizeof($data); $i++)
 
 $states = ["Ohio" => array("population" => "11,353,140", "capital" => "Columbus"),
            "Nebraska" => array("population" => "1,711,263", "capital" => "Omaha")];
+
+echo $states["Ohio"]["population"];
