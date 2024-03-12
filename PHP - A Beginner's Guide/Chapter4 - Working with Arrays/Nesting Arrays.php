@@ -12,4 +12,8 @@ $phonebook = array(
         'tel' => '8562940',
         'email' => 'dduck@duckpond.corp',
     ),
+    array(
+        'name' => 'Harold Horse',
+          
+    )
 )
