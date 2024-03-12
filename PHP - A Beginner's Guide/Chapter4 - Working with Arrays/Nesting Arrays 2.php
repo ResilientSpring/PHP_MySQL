@@ -12,6 +12,4 @@ echo "David Duck's number is ".$phone_book[1]["tel"];
 
 print "<br><br><br>";
 
-echo var_dump($phone_book);
-
 var_dump($phone_book);
