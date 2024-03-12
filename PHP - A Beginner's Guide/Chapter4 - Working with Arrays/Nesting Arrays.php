@@ -21,3 +21,7 @@ $phonebook = array(
 
 // access nested value
 echo "David Duck's number is: ".$phonebook[1]['tel'];
+
+echo "<br>";
+
+echo print_r($phonebook);
