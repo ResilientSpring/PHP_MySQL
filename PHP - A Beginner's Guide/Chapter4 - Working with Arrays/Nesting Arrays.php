@@ -18,3 +18,6 @@ $phonebook = array(
         'email' => 'kingharold@farmersmarket.horsestuff.com',
     )
 );
+
+// access nested value
+echo "David Duck's number is: ".$phonebook[1]['tel'];
