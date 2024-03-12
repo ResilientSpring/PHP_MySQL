@@ -14,6 +14,7 @@ $phonebook = array(
     ),
     array(
         'name' => 'Harold Horse',
-          
+        'tel' => '5942033',
+        'email' => 'kingharold@farmersmarket.horsestuff.com',
     )
-)
+);
