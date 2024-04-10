@@ -12,3 +12,5 @@ $iterator = new ArrayIterator($cities);
 
 // rewind to beginning of array
 $iterator.rewind();
+
+$iterator->rewind();
