@@ -7,8 +7,8 @@ $cities = array(
     "India" => "Delhi"
 );
 
-// iterate over array
-// print each value
-foreach ($cities as $key => $value){
-    echo "$value is in $key. \r\n";
-}
+// create an ArrayIterator object
+$iterator = new ArrayIterator($cities);
+
+// rewind to beginning of array
+$iterator.rewind();
