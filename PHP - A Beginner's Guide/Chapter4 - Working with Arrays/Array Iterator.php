@@ -14,3 +14,8 @@ $iterator = new ArrayIterator($cities);
 $iterator.rewind();
 
 $iterator->rewind();
+
+while ($iterator->valid()){
+    print $iterator->current()." is in ".$iterator->key().". \r\n";
+    $iterator->next();
+}
