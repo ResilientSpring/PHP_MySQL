@@ -40,7 +40,7 @@ $avg = round($total / $count);
 $students = sizeof($grades);
 
 // print statistics
-echo "The number of students:  <br/>";
+echo "The number of students: $students <br/>";
 echo "Class average: $avg <br/>";
 echo "Number of students in bottom 20%: $bottom <br/>";
 echo "Number of students in top 20%: $top <br/>";
