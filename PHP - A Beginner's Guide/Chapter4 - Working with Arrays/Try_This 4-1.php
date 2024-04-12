@@ -35,6 +35,11 @@ foreach ($grades as $g){
         $top++;
 }
 
+$avg = round($total / $count);
+
+// print statistics
+echo "Class average: $avg <br/>";
+
 ?>
 
 </body>
