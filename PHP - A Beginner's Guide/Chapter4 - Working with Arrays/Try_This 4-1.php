@@ -39,6 +39,8 @@ $avg = round($total / $count);
 
 // print statistics
 echo "Class average: $avg <br/>";
+echo "Number of students in bottom 20%: $bottom <br/>";
+echo "Number of students in top 20%: $top <br/>";
 
 ?>
 
