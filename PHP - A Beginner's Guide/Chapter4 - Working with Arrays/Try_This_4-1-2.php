@@ -37,6 +37,8 @@ foreach ($grades as $g){
 
 $avg = round($total / $count);
 
+$students = sizeof($grades);
+
 // print statistics
 echo "The number of students:  <br/>";
 echo "Class average: $avg <br/>";
