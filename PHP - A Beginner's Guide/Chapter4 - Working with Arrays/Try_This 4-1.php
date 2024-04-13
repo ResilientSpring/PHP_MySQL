@@ -41,8 +41,8 @@ $avg = round($total / $count);
 
 // print statistics
 echo "Class average: $avg <br/>";
-echo "Number of students whose grade is less than 20: $bottom <br/>";
-echo "Number of students whose grade is gresater than 80: $top <br/>";
+echo "The number of students whose grade is less than 20: $bottom <br/>";
+echo "The number of students whose grade is gresater than 80: $top <br/>";
 
 ?>
 
