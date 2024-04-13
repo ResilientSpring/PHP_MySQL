@@ -27,10 +27,10 @@ $total = $top = $bottom = 0;
 foreach ($grades as $g){
     $total += $g;
 
-    if ($g <= 20)
+    if ($g < 20)
         $bottom++;
 
-    if ($g >= 80)
+    if ($g > 80)
         $top++;
 }
 
