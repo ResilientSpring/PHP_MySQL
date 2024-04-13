@@ -41,8 +41,8 @@ $students = sizeof($grades);
 // print statistics
 echo "The number of students: $students <br/>";
 echo "Class average: $avg <br/>";
-echo "Number of students whose grade is less than 20: $bottom <br/>";
-echo "Number of students in top 20%: $top <br/>";
+echo "The number of students whose grade is less than 20: $bottom <br/>";
+echo "The number of students whose grade is greater than 80: $top <br/>";
 
 ?>
 
