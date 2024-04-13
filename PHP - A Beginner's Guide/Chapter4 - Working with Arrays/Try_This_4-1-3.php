@@ -18,7 +18,7 @@ $grades = array(
     43, 49, 65, 69, 69, 78, 17, 91
 );
 
-// get number of grades
+// get the number of grades
 $count = count($grades);
 
 // iterate over grades
