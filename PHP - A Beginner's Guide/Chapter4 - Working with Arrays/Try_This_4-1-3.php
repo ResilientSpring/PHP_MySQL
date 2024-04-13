@@ -2,7 +2,7 @@
 
 <head>
     <title>
-        Project 4-1-32: Grade Averaging
+        Project 4-1-3: Grade Averaging
     </title>
 </head>
 
