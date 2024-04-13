@@ -21,13 +21,15 @@ $grades = array(
 // get number of grades
 $count = count($grades);
 
-// iterate over grades
-// calculate total and top/bottom 20%
+
 $total = $top = $bottom = 0;
 
+// iterate over grades
 foreach ($grades as $g){
     $total += $g;
 
+    // calculate total and the number of the grades greater than or equal to 80
+    // and smaller than or equal to 20.
     if ($g <= 20)
         $bottom++;
 
