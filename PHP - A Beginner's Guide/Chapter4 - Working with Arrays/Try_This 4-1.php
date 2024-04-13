@@ -21,17 +21,19 @@ $grades = array(
 // get number of grades
 $count = count($grades);
 
-// iterate over grades
-// calculate total and top/bottom 20%
+
 $total = $top = $bottom = 0;
 
+// iterate over grades
 foreach ($grades as $g){
     $total += $g;
 
-    if ($g <= 20)
+    // calculate total and the number of the grades greater than or equal to 80
+    // and smaller than or equal to 20.
+    if ($g < 20)
         $bottom++;
 
-    if ($g >= 80)
+    if ($g > 80)
         $top++;
 }
 
@@ -39,8 +41,8 @@ $avg = round($total / $count);
 
 // print statistics
 echo "Class average: $avg <br/>";
-echo "Number of students in bottom 20%: $bottom <br/>";
-echo "Number of students in top 20%: $top <br/>";
+echo "The number of students whose grade is less than 20: $bottom <br/>";
+echo "The number of students whose grade is gresater than 80: $top <br/>";
 
 ?>
 

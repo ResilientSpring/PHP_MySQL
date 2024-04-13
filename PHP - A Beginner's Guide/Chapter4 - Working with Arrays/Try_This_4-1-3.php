@@ -2,13 +2,13 @@
 
 <head>
     <title>
-        Project 4-1-2: Grade Averaging
+        Project 4-1-3: Grade Averaging
     </title>
 </head>
 
 <body>
 
-<h2>Project 4-1-2: Grade Averaging</h2>
+<h2>Project 4-1-3: Grade Averaging</h2>
 
 <?php
 
@@ -36,10 +36,10 @@ foreach ($grades as $g){
 
 $avg = round($total / $count);
 
-$students = sizeof($grades);
+// $students = sizeof($grades);
 
 // print statistics
-echo "The number of students: $students <br/>";
+echo "The number of students: $count <br/>";
 echo "Class average: $avg <br/>";
 echo "The number of students whose grade is less than 20: $bottom <br/>";
 echo "The number of students whose grade is greater than 80: $top <br/>";
