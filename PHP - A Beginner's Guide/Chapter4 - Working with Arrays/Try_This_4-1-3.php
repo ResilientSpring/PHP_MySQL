@@ -2,13 +2,13 @@
 
 <head>
     <title>
-        Project 4-1-2: Grade Averaging
+        Project 4-1-32: Grade Averaging
     </title>
 </head>
 
 <body>
 
-<h2>Project 4-1-2: Grade Averaging</h2>
+<h2>Project 4-1-3: Grade Averaging</h2>
 
 <?php
 
