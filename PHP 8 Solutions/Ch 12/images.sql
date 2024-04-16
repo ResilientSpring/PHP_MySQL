@@ -52,3 +52,10 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+/* Sources and References:
+
+   1. https://www.jetbrains.com/help/idea/working-with-user-files.html#create_sql_file
+   2. https://github.com/Apress/php-8-solutions/blob/main/ch12/images.sql
+
+*/
