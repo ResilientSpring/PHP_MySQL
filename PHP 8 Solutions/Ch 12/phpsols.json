@@ -1,0 +1,22 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"phpsols"},
+{"type":"table","name":"images","database":"phpsols","data":
+[
+{"image_id":"1","filename":"basin.jpg","caption":"Water basin at Ryoanji temple, Kyoto"},
+{"image_id":"2","filename":"fountains.jpg","caption":"Fountains in central Tokyo"},
+{"image_id":"3","filename":"kinkakuji.jpg","caption":"The Golden Pavilion in Kyoto"},
+{"image_id":"4","filename":"maiko.jpg","caption":"Maiko&mdash;trainee geishas in Kyoto"},
+{"image_id":"5","filename":"maiko_phone.jpg","caption":"Every maiko should have one&mdash;a mobile, of course"},
+{"image_id":"6","filename":"menu.jpg","caption":"Menu outside restaurant in Pontocho, Kyoto"},
+{"image_id":"7","filename":"monk.jpg","caption":"Monk begging for alms in Kyoto"},
+{"image_id":"8","filename":"ryoanji.jpg","caption":"Autumn leaves at Ryoanji temple, Kyoto"}
+]
+}
+,{"type":"table","name":"images_backup","database":"phpsols","data":
+[
+{"image_id":"1","filename":"basin.jpg","caption":"Water basin at Ryoanji temple, Kyoto."},
+{"image_id":"2","filename":"fountains.jpg","caption":"Fountains in central Tokyo."}
+]
+}
+]
