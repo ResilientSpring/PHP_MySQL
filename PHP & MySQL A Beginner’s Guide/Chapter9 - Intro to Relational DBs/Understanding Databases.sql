@@ -4,6 +4,7 @@ CREATE TABLE book (
     Book_Title VARCHAR NOT NULL UNIQUE,
     Author VARCHAR(100) NOT NULL,
     Publisher VARCHAR NOT NULL ,
-    Price DOUBLE NOT NULL
+    Price DOUBLE NOT NULL,
+    Category VARCHAR(200) NOT NULL
 );
 
