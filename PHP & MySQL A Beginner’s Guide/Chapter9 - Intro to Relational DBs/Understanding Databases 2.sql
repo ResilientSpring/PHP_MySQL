@@ -11,8 +11,8 @@ CREATE TABLE book (
 CREATE TABLE author(
 
                        Aid INT UNIQUE PRIMARY KEY NOT NULL AUTO_INCREMENT,
-                       Last_Name VARCHAR ,
-                       First_Name VARCHAR
+                       Last_Name VARCHAR(100) ,
+                       First_Name VARCHAR(100)
 
 );
 
