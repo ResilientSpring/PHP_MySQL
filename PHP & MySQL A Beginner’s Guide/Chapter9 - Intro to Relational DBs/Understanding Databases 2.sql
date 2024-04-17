@@ -19,15 +19,15 @@ CREATE TABLE author(
 CREATE TABLE publisher(
 
                           Pid INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
-                          Publisher VARCHAR NOT NULL ,
-                          Address VARCHAR NOT NULL ,
-                          City VARCHAR NOT NULL
+                          Publisher VARCHAR(100) NOT NULL ,
+                          Address VARCHAR(100) NOT NULL ,
+                          City VARCHAR(100) NOT NULL
 
 );
 
 CREATE TABLE category(
 
                          Cid INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
-                         Category VARCHAR NOT NULL ,
-                         Section VARCHAR NOT NULL
+                         Category VARCHAR(100) NOT NULL ,
+                         Section VARCHAR(100) NOT NULL
 );
