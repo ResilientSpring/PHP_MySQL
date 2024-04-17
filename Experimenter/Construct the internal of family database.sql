@@ -1,0 +1,6 @@
+CREATE TABLE members(
+
+    name_id INT(100) NOT NULL PRIMARY KEY ,
+    name INT(100) UNSIGNED UNIQUE NOT NULL
+
+)
