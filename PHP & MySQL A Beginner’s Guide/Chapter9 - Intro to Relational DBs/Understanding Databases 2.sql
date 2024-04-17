@@ -1,9 +1,9 @@
 CREATE TABLE book (
 
                       BkID INT UNSIGNED PRIMARY KEY AUTO_INCREMENT NOT NULL ,
-                      Book_Title VARCHAR(200) NOT NULL,
+                      Book_Title VARCHAR(200) NOT NULL UNIQUE ,
                       Author VARCHAR(100) NOT NULL,
-                      Publisher VARCHAR NOT NULL ,
+                      Publisher VARCHAR(200) NOT NULL ,
                       Price DOUBLE NOT NULL,
                       Category VARCHAR(200) NOT NULL
 );
