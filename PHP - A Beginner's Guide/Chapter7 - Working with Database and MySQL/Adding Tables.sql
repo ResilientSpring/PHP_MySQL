@@ -12,6 +12,7 @@ CREATE TABLE ratings(
 CREATE TABLE songs(
 
     song_id INT(4) NOT NULL PRIMARY KEY ,
-
-
-)
+    song_title VARCHAR(100) NOT NULL ,
+    fk_song_artist INT(4) NOT NULL ,
+    fk_song_rating INT(2) NOT NULL
+);
