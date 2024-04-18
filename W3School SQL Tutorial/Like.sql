@@ -1,2 +1,2 @@
 SELECT * FROM customers
-         WHERE customers.customers.contactName = "a%";
+         WHERE customers.customers.contactName = "A%";
