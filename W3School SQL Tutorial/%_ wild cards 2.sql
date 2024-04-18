@@ -1,1 +1,2 @@
-SELECT * FROM customers WHERE customers.customers.contactName LIKE "A%" OR "B___%";
+SELECT * FROM customers
+WHERE customers.customers.contactName LIKE "A%" OR "B___%";
