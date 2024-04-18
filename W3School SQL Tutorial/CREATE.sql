@@ -2,6 +2,6 @@ CREATE TABLE customers (
 
     customerID INT UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,
     customerName VARCHAR(255) NOT NULL UNIQUE ,
-    contactName VARCHAR(255) NOT NULL,
+    contactName VARCHAR(255) NOT NULL
 
 );
