@@ -1,0 +1,1 @@
+SELECT customers.customerName, customers.city FROM customers;
