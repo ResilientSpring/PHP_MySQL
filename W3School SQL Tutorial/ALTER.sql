@@ -1,1 +1,1 @@
-ALTER TABLE customers ALTER COLUMN customerID columnType NULL;
+ALTER TABLE customers ALTER COLUMN customerID NULL;
