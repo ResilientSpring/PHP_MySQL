@@ -13,3 +13,5 @@ INSERT INTO suppliers(supplierID, supplierName, contactName, address,
                       city, postCode, country)
 VALUES (1, "Exotic Liquid", "Charlotte Copper", "49 Gilbert St.",
         "Londona", "EC1 4SD", "UK");
+
+INSERT INTO suppliers(supplierName) VALUES ("Grandma Kelly''s Homestead ");
