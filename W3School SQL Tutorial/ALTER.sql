@@ -1,1 +1,1 @@
-ALTER TABLE customers ALTER COLUMN customerID DROP NOT NULL;
+ALTER TABLE customers ALTER COLUMN customerID ;
