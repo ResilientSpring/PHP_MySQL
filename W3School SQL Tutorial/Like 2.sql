@@ -1,0 +1,1 @@
+SELECT * FROM customers WHERE customers.customers.customerName LIKE "A%";
