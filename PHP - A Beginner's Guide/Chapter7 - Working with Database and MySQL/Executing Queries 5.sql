@@ -1,0 +1,1 @@
+SELECT artists.artist_name, artists.artist_country FROM artists WHERE artist_country = "US" OR artist_country = "UK";

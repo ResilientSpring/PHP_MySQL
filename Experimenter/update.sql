@@ -1,0 +1,1 @@
+UPDATE artists SET artist_country = NULL WHERE artist_name = "Cubanismo";
