@@ -1,0 +1,1 @@
+UPDATE songs SET foreign_key_song_artist
