@@ -12,3 +12,6 @@ WHERE song_title = "Dancing Queen";
 
 UPDATE songs SET foreign_key_song_artist = 6
 WHERE song_title = "En Las Delicious";
+
+UPDATE songs SET foreign_key_song_artist = 2
+WHERE song_title = "Gimme Gimme Gimme";
