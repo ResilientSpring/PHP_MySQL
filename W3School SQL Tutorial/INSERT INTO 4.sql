@@ -12,4 +12,4 @@ VALUES (1, 77895, 3);
 
 INSERT INTO orders(orderNumber, personID) VALUES (44678, 3);
 
-
+INSERT INTO orders(orderNumber) VALUES (22456);
