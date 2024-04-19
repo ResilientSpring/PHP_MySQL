@@ -24,3 +24,6 @@ WHERE song_title = "SOS" OR song_title = "Voulez Vous";
 
 UPDATE songs SET foreign_key_song_artist = 4
 WHERE song_title = "Sure";
+
+UPDATE artists SET artist_name = "Abba"
+WHERE artist_name = "Abbaa";
