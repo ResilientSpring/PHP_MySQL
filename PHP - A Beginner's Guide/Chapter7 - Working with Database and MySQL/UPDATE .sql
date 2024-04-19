@@ -3,3 +3,6 @@ UPDATE songs SET foreign_key_song_artist = 4
 
 UPDATE songs SET foreign_key_song_artist = 3
              WHERE song_title = "Aplogize";
+
+UPDATE songs SET foreign_key_song_artist = 4
+WHERE song_title = "Babe";
