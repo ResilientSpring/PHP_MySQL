@@ -21,3 +21,6 @@ WHERE song_title = "Pray";
 
 UPDATE songs SET foreign_key_song_artist = 2
 WHERE song_title = "SOS" OR song_title = "Voulez Vous";
+
+UPDATE songs SET foreign_key_song_artist = 4
+WHERE song_title = "Sure";
