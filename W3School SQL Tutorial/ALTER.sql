@@ -1,1 +1,1 @@
-ALTER TABLE customers ALTER COLUMN customerID ;
+ALTER TABLE orders ADD OrderDate date;
