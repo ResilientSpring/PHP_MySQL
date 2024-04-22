@@ -7,4 +7,6 @@ SELECT orders.orderID, orders.orderDate FROM orders;
 
 SELECT * FROM orders;
 
-SELECT orders.orderID, orders.orderDate,
+SELECT orders.orderID, orders.orderDate, customers.contactName
+FROM orders
+INNER JOIN customers ON orders.customerID = customers.customerID;
