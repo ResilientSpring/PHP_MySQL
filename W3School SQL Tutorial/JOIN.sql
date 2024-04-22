@@ -7,4 +7,4 @@ SELECT orders.orderID, orders.orderDate FROM orders;
 
 SELECT * FROM orders;
 
-SELECT or
+SELECT orders.orderID, orders.orderDate,
