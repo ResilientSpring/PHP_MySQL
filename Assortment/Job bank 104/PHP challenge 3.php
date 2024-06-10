@@ -10,8 +10,18 @@
 
 <?php
 
-$name = $_POST["name"];
+$naming = $_POST["name"];
 
+?>
+
+Your input is
+
+<?php
+
+for ($i = 0; $i < count($naming); $i++){
+
+    echo "$naming[$i]";
+}
 
 ?>
 
