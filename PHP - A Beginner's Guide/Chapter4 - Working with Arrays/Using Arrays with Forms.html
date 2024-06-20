@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using Arrays with Forms</title>
+</head>
+<body>
+
+<form method="post" action="Using%20Arrays%20with%20Forms.php">
+    Select your favourite artists: <br />
+
+    <select name="artists[]" multiple="multiple">
+
+        <option value="Britney Spears">Britney Spears</option>
+        <option value="Aerosmith">Aerosmith</option>
+        <option value="Black-Eyed Peas">Black-Eyed Peas</option>
+        <option value="Diana Ross">Diana Ross</option>
+        <option value="Foo Fighters">Foo Fighters</option>
+
+    </select>
+
+    <p></p>
+
+    <input type="submit" name="submit" value="Submit"/>
+
+</form>
+
+</body>
+</html>

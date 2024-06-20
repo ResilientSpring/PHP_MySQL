@@ -1,0 +1,1 @@
+SELECT artist_id, artist_name FROM artists;

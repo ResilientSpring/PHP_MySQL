@@ -1,0 +1,1 @@
+DELETE FROM songs WHERE song_title = "Janie's Got A Gun" AND foreign_key_song_artist IS NULL;

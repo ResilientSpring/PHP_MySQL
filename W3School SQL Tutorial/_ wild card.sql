@@ -1,0 +1,1 @@
+SELECT * FROM customers WHERE city LIKE "L_nd__";
