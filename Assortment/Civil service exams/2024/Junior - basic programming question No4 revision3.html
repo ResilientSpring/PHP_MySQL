@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Movie</title>
+</head>
+<body>
+
+<h1>Add Movie</h1>
+
+<form method="post" action="addMovie.php">
+
+  Name of Movie:
+  <input type="text" name="naming" value=""/>
+
+  <br/>
+
+  Year:
+
+  <input type="number" min="1900" max="2099" step="1" value="2024" /> <!--[1]-->
+
+  <br>
+
+  Movie Genre:
+  <select name="dl1">
+
+    <option name="Action" value="Action">Action</option>
+    <option name="Comedy" value="Comedy">Comedy</option>
+    <option name="Drama" value="Drama">Drama</option>
+    <option name="Horror" value="Horror">Horror</option>
+    <option name="Fantasy" value="fantasy">Fantasy</option>
+    <option name="Romance" value="romance">Romance</option>
+    <option name="Science_Fiction" value="science_fiction">Science Fiction</option>
+
+  </select>
+
+  <br>
+
+  Rating:<br>
+  <input type="radio" name="ratings" value="Kids"/>
+  <input type="radio" name="ratings" value="PG13"/>
+  <input title="radio" name="ratings" value="Adult"/>
+
+</form>
+
+</body>
+</html>
+
+Reference:
+https://stackoverflow.com/questions/34676752/can-i-use-an-html-input-type-date-to-collect-only-a-year
