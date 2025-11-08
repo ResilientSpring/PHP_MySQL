@@ -1,13 +1,16 @@
 CREATE TABLE Genre (
     GenreID int NOT NULL PRIMARY KEY ,
-    GenreName
+    GenreName char
     );
 
-CREATE TABLE Book{
+CREATE TABLE Book
+(
 
-    BookID,
-    BookName,
-    GenreID
-    AuthorID
+    BookID int PRIMARY KEY,
+    BookName char,
+    GenreID int,
+    AuthorID int
 
-    }
+);
+
+
