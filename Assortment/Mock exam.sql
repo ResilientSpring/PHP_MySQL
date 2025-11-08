@@ -5,11 +5,12 @@ CREATE TABLE Genre (
 
 CREATE TABLE Book
 (
-
     BookID int PRIMARY KEY,
     BookName char,
     GenreID int,
-    AuthorID int
+    AuthorID int,
+
+    FOREIGN KEY (GenreID) REFERENCES Genre(GenreID)
 
 );
 
