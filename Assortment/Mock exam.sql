@@ -10,8 +10,14 @@ CREATE TABLE Book
     GenreID int,
     AuthorID int,
 
-    FOREIGN KEY (GenreID) REFERENCES Genre(GenreID)
+    FOREIGN KEY (GenreID) REFERENCES Genre(GenreID),
+    FOREIGN KEY (AuthorID) REFERENCES Author(AuthorID)
 
 );
 
+CREATE TABLE Author(
 
+    AuthorID int PRIMARY KEY ,
+    AuthorName varchar
+
+);
