@@ -14,4 +14,9 @@ CREATE TABLE Book
 
 );
 
+CREATE TABLE Author(
 
+    AuthorID int PRIMARY KEY ,
+    AuthorName varchar
+
+);
