@@ -141,7 +141,7 @@
 		givenname VARCHAR(24) NOT NULL,
 		familyname VARCHAR(24) NOT NULL,
 		email VARCHAR(60),
-		phone CHAR(10) CHECK(phone RLIKE '0[0-9]]{9}'),
+		phone CHAR(10) CHECK(phone RLIKE '0[0-9]{9}'),
 		tfn CHAR(9) CHECK(tfn RLIKE '[0-9]{9}')
 		--	etc
 	) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci ENGINE=INNODB;
