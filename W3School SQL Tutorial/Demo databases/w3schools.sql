@@ -1,3 +1,4 @@
+-- Source: https://github.com/AndrejWeb/w3schools-database
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
 START TRANSACTION;
