@@ -11158,3 +11158,5 @@ VALUES
 		s.ordered=s.ordered + interval d.diff day,
 		s.shipped=s.shipped + interval d.diff day;
 
+
+-- Assistance from: https://chatgpt.com/c/69181af8-4f38-8321-94e5-35280573f1c9
