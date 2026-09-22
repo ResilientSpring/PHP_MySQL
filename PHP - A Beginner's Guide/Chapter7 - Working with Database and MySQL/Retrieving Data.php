@@ -14,6 +14,10 @@ $sql = "SELECT artist_id, artist_name FROM artists";
 
 if ($result = $mysqli->query($sql)){
 
-    if ($result->num_rows > 0)
+    if ($result->num_rows > 0){
+        while($row = $result->fetch_array()){
+            echo $row[0].":".$row[1]."\n";
+        }
+    }
 
 }
