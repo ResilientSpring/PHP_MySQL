@@ -18,6 +18,8 @@ if ($result = $mysqli->query($sql)){
         while($row = $result->fetch_array()){
             echo $row[0].":".$row[1]."\n";
         }
+
+        $result->close();
     }
 
 }
