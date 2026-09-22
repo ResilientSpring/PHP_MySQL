@@ -11,6 +11,6 @@ if($mysqli === false){
 // print each record and its fields
 // output: "1:Aerosmith \n 2:Abba \n ..."
 $sql = "SELECT artist_id, artist_name, FROM artists";
-if ($result = $mysqli.query($sql)){
+if ($result = $mysqli->query($sql)){
 
 }
