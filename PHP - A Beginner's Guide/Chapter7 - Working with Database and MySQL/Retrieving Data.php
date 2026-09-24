@@ -20,6 +20,9 @@ if ($result = $mysqli->query($sql)){
         }
 
         $result->close();
+
+    } else {
+        echo "No records matching your query were found.";
     }
 
 }
