@@ -29,4 +29,5 @@ if ($result = $mysqli->query($sql)){
     echo "ERROR: Could not execute $sql.".$mysqli->error;
 }
 
-
+// close connection
+$mysqli->close();
