@@ -25,4 +25,8 @@ if ($result = $mysqli->query($sql)){
         echo "No records matching your query were found.";
     }
 
+} else {
+    echo "ERROR: Could not execute $sql.".$mysqli->error;
 }
+
+
