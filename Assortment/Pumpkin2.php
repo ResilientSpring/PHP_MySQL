@@ -11,7 +11,7 @@ if($mysqli === false){
 // attempt query execution
 // add a new record
 // output: "New artist with id:7 added."
-$sql = "INSERT INTO leaderboard(sessionID, playerID, stage1score, stage2score, TotalScore, Rank, playedAt, durationSec) VALUES ('20260909_143053', 1, 10, 35, 45, 1, '2026-09-09 14:30:53', 465)";
+$sql = "INSERT INTO leaderboard(sessionID, playerID, stage1score, stage2score, TotalScore, Rank, playedAt, durationSec) VALUES ('20260909_143053', 2, 10, 35, 45, 1, '2026-09-24 14:12:53', 465)";
 
 if($mysqli->query($sql) === true){
     echo 'added.';
