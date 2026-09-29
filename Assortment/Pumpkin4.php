@@ -29,4 +29,7 @@ try {
 } catch (mysqli_sql_exception $e) {
     echo "ERROR: " . $e->getMessage();
 }
+
+// Source: https://chatgpt.com/c/6ab24c80-df2c-83ee-9110-ce908de664f6
+
 ?>
