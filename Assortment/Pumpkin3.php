@@ -1,5 +1,7 @@
 <?php
-// attempt database connection
+// cmd:ipconfig
+// Remember this computer's IP address. Let's say, 192.168.0.107
+// Set up
 $mysqli = new mysqli("192.168.0.198", "admin2", "123", "pumpkin", 3306);
 
 if($mysqli === false){
