@@ -1,7 +1,7 @@
 <?php
 // Query cmd for ipconfig
 // Remember this computer's IP address. Let's say, 192.168.0.107
-// On another computer's PHP MyAdmin, set up an account whose host name is 192.168.0.107 and user name is admin2
+// On another computer's PHP MyAdmin, set up an account whose host name is 192.168.0.107, user name is admin2, and password is 123.
 $mysqli = new mysqli("192.168.0.198", "admin2", "123", "pumpkin", 3306);
 
 if($mysqli === false){
