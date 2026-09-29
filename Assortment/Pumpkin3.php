@@ -1,6 +1,6 @@
 <?php
 // attempt database connection
-$mysqli = new mysqli("192.168.0.198", "admin", "123", "pumpkin", 3306);
+$mysqli = new mysqli("192.168.0.198", "admin2", "123", "pumpkin", 3306);
 
 if($mysqli === false){
 
