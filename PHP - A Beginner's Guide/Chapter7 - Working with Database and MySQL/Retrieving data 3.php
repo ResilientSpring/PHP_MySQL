@@ -4,7 +4,11 @@
 // to the server. All communication between PHP and the database server takes place through this connection.
 $mysqli = new mysqli("localhost", "user", "pass", "music");
 
+// If the connection attempt is unsuccessful, the object instance will become false;
 if ($mysqli === false){
+
+    // an error message explaining the reason for failure can
+    // now be obtained by calling the mysqli_connect_error() function.
     die("ERROR: Could not connect. ". mysqli_connect_error());
 }
 
