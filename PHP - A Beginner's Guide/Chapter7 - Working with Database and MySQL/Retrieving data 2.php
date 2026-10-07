@@ -18,5 +18,7 @@ if ($result = $mysqli->query($sql)){
             echo $row[0].":".$row[1]."\n";
         }
         $result->close();
+    } else {
+        echo "No records matching your query were found.";
     }
 }
