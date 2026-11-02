@@ -18,7 +18,7 @@ if ($result = $mysqli->query($sql)){
         while ($row = $result->fetch_object()){
             echo $row->artist_id, ":" .$row->artist_name . "\n";
         }
-
+        $result->close();
     }
 }
 
