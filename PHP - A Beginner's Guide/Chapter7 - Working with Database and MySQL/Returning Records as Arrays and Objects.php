@@ -16,7 +16,7 @@ if ($result = $mysqli->query($sql)){
     if ($result->num_rows > 0 ){
 
         while ($row = $result->fetch_object()){
-            echo $row->artist_id, ":" .$row->artist_name . "\n";
+            echo $row->artist_id. ":" .$row->artist_name . "\n";
         }
         $result->close();
     } else{
