@@ -7,7 +7,7 @@ if ($mysqli === false){
 
 $sql = "SELECT playerID, stage1score, TotalScore, playedAt FROM leaderboard";
 
-echo "playerID | stage1score | TotalScore | played at ";
+echo "playerID | stage1score | TotalScore | played at \n";
 
 if ($result = $mysqli->query($sql)){
 
