@@ -13,7 +13,7 @@ if ($result = $mysqli->query($sql)){
 
     if ($result->num_rows > 0){
         while($row = $result -> fetch_object()){
-            echo "   ".$row->playerID."     |      ".$row['stage1score']."     |     ".$row['TotalScore']."    |  ".$row['playedAt']."\n";
+            echo "   ".$row->playerID."     |      ".$row->stage1score."     |     ".$row->TotalScore."    |  ".$row->playedAt."\n";
         }
         $result->close();
     }else{
