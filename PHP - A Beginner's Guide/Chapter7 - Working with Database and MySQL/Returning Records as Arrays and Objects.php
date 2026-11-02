@@ -13,6 +13,8 @@ if($mysqli === false){
 $sql = "SELECT artist_id, artist_name FROM artists";
 
 if ($result = $mysqli->query($sql)){
+    if ($result->num_rows > 0 ){
 
+    }
 }
 
