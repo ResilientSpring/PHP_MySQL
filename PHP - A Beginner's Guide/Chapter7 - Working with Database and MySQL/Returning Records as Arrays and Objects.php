@@ -19,6 +19,8 @@ if ($result = $mysqli->query($sql)){
             echo $row->artist_id, ":" .$row->artist_name . "\n";
         }
         $result->close();
+    } else{
+        echo "No records matching your query were found.";
     }
 }
 
