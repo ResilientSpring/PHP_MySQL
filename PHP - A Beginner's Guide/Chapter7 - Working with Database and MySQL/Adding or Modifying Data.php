@@ -11,4 +11,4 @@ if ($mysqli === false){
 // attempt query execution
 // add a new record
 // output: "New artist with id:7 added."
-$sql = "INSERT INTO artists (artist_name, artist_country) VALUES ('Kylie Minogue')"
+$sql = "INSERT INTO artists (artist_name, artist_country) VALUES ('Kylie Minogue', 'AU')";
