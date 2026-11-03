@@ -5,7 +5,7 @@ if ($mysqli === false){
     die("ERROR: Could not connect. ".mysqli_connect_error());
 }
 
-$sql = "INSERT INTO ";
+$sql = "INSERT INTO leaderboard(playerID, stage1score, TotalScore, playedAt) VALUES ()";
 
 echo "playerID | stage1score | TotalScore | played at \n";
 
