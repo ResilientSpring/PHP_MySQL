@@ -1,6 +1,6 @@
 <?php
 // attempt database connection
-$mysqli = new mysqli("localhost", "üser", "pass", "music");
+$mysqli = new mysqli("localhost", "user", "pass", "music");
 
 if ($mysqli === false){
 
