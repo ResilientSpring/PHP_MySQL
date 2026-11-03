@@ -14,6 +14,5 @@ if ($mysqli === false){
 $sql = "INSERT INTO artists (artist_name, artist_country) VALUES ('Kylie Minogue', 'AU')";
 
 if ($mysqli->query($sql) === true){
-
-
+    echo 'New artist with id:'.$mysqli->insert_id . 'added.';
 }
