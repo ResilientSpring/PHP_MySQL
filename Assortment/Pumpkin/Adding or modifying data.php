@@ -7,7 +7,7 @@ if ($mysqli === false){
 
 $sql = "INSERT INTO leaderboard(playerID, stage1score, TotalScore, playedAt) VALUES (4, 18, 49, '2026-11-03 11:56:53')";
 
-echo "playerID | stage1score | TotalScore | played at \n";
+// echo "playerID | stage1score | TotalScore | played at \n";
 
 if ($result = $mysqli->query($sql)){
 
