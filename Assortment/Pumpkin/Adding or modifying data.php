@@ -7,19 +7,12 @@ if ($mysqli === false){
 
 $sql = "INSERT INTO leaderboard(playerID, stage1score, TotalScore, playedAt) VALUES (4, 18, 49, '2026-11-03 11:56:53')";
 
-echo "playerID | stage1score | TotalScore | played at \n";
+// echo "playerID | stage1score | TotalScore | played at \n";
 
 if ($result = $mysqli->query($sql)){
-
-    if ($result->num_rows > 0){
-        while($row = $result -> fetch_object()){
-            echo "   ".$row->playerID."     |      ".$row->stage1score."     |     ".$row->TotalScore."    |  ".$row->playedAt."\n";
-        }
-        $result->close();
-    }else{
-        echo "ERROR: Could not execute $sql.".$mysqli->error;
-    }
-
+    echo "New player with ID: ".$mysqli->insert_id." added.";
+} else {
+    echo "ERROR: Could not execute query: $sql. ".$mysqli->error;
 }
 
 $mysqli->close();
