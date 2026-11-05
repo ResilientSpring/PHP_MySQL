@@ -11,4 +11,10 @@ try {
 
     echo "ERROR: " . $exception->getMessage();
 
+} finally {
+
+    if (isset($mysql)){
+        $mysql->close();
+    }
+
 }
