@@ -10,6 +10,13 @@ $songs = array(
 try {
     // attempt database connection
     $mysqli = new mysqli("localhost", "user", "pass", "music");
+
+    // prepare query template
+    // execute multiple times
+    $sql = "INSERT INTO songs(song_title, fk_song_artist, fk_song_rating) VALUES (?, ?, ?)";
+
+
+
 }catch (mysqli_sql_exception $exception){
     echo "Could not connect because " . $exception->getMessage() . ".";
 }
