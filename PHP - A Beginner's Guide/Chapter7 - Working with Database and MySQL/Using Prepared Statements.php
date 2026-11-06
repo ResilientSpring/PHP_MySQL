@@ -7,5 +7,13 @@ $songs = array(
     array('Hold on', 4, 3),
 );
 
+try {
+    // attempt database connection
+    $mysqli = new mysqli("localhost", "user", "pass", "music");
+}catch (mysqli_sql_exception $exception){
+    echo "Could not connect because " . $exception->getMessage() . ".";
+}
+
+
 
 
