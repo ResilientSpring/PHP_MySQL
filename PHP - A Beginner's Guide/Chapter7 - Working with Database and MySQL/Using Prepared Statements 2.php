@@ -26,6 +26,7 @@ try {
             $stmt->bind_param('sii', $s[0], $s[1], $s[2]);
 
 
+
             if ($stmt->execute()){
                 echo "New song with id: " . $mysqli->insert_id . " added.\n";
             }else{
