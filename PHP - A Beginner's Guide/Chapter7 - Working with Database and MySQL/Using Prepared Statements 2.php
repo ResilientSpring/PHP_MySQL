@@ -21,12 +21,18 @@ try {
 
         // Executing the prepared statement is now a matter of performing two actions, usually within a loop.
         foreach ($songs as $s){
+
+            // Bind the values to the prepared statement.
             $stmt->bind_param('sli', $s[0], $s[1], $s[2]);
+
+
             if ($stmt->execute()){
                 echo "New song with id: " . $mysqli->insert_id . " added.\n";
             }else{
                 echo "ERROR: Could not execute query: $sql. " . $mysqli->error;
             }
+
+
         }
 
     }
