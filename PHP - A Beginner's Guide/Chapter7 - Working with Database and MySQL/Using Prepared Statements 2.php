@@ -11,10 +11,11 @@ try {
     // attempt database connection
     $mysqli = new mysqli("localhost", "user", "pass", "music");
 
-    // prepare query template
-    // execute multiple times
+    // To use a prepared statement, it is necessary to first define the SQL query string that will be executed
+    // multiple times. This query string typically contains one or more placeholders, denoted by question marks.
     $sql = "INSERT INTO songs(song_title, fk_song_artist, fk_song_rating) VALUES (?, ?, ?)";
 
+    // The query string with its placeholders is then passed to the MySQLi object's prepare() method, which
     if ($stmt = $mysqli->prepare($sql)){
 
         foreach ($songs as $s){
