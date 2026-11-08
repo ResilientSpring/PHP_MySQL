@@ -15,7 +15,8 @@ try {
     // multiple times. This query string typically contains one or more placeholders, denoted by question marks.
     $sql = "INSERT INTO songs(song_title, fk_song_artist, fk_song_rating) VALUES (?, ?, ?)";
 
-    // The query string with its placeholders is then passed to the MySQLi object's prepare() method, which
+    // The query string with its placeholders is then passed to the MySQLi object's prepare() method, which checks
+    // the SQL for errors.
     if ($stmt = $mysqli->prepare($sql)){
 
         foreach ($songs as $s){
