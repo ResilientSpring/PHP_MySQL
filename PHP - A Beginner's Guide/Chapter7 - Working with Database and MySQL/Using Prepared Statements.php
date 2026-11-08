@@ -17,7 +17,7 @@ try {
 
     if ($stmt = $mysqli->prepare($sql)){
 
-        foreach ($song as $s){
+        foreach ($songs as $s){
             $stmt->bind_param('sli', $s[0], $s[1], $s[2]);
             if ($stmt->execute()){
                 echo "New song with id: " . $mysqli->insert_id . " added.\n";
