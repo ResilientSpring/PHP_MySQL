@@ -23,7 +23,7 @@ try {
         foreach ($songs as $s){
 
             // Bind the values to the prepared statement.
-            $stmt->bind_param('sli', $s[0], $s[1], $s[2]);
+            $stmt->bind_param('sii', $s[0], $s[1], $s[2]);
 
 
             if ($stmt->execute()){
