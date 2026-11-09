@@ -7,6 +7,8 @@ if ($mysql->query("CREATE DATABASE IF NOT EXISTS employee"))
 else
     echo "Database was not created successfully.";
 
+$mysql->select_db("employee");
+
 
 
 
