@@ -7,6 +7,10 @@ try {
 
     if ($mysqli->query('CREATE DATABASE employees') )
         echo "Database created successfully";
+    else {
+        echo "Database does not create successfully.";
+    }
+
 
     $mysqli->close();
 
