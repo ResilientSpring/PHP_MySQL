@@ -8,7 +8,10 @@ try {
     if ($mysqli->query('CREATE DATABASE employees') )
         echo "Database created successfully";
 
+    $mysqli->close();
 
-}catch (){
+} catch (mysqli_sql_exception $exception){
+
+    echo "Error: " . $exception->getMessage();
 
 }
