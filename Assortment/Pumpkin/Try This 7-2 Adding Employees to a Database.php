@@ -20,6 +20,8 @@ try {
     designation VARCHAR(255) NOT NULL
 )";
 
+    $mysqli->query($sql);
+
     $mysqli->close();
 
 } catch (mysqli_sql_exception $exception){
