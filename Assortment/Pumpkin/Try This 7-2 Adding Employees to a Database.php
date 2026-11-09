@@ -11,8 +11,14 @@ try {
         echo "Database was not create successfully.";
     }
 
+    $mysqli->select_db("employees");
 
-
+    $sql = "CREATE TABLE IF NOT EXISTS employees(
+    
+    id INT(4) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    designation VARCHAR(255) NOT NULL
+)";
 
     $mysqli->close();
 
