@@ -22,6 +22,8 @@ try {
 
     $mysqli->query($sql);
 
+    echo "Database and table created successfully.";
+
     $mysqli->close();
 
 } catch (mysqli_sql_exception $exception){
