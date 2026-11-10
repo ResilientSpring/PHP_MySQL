@@ -69,8 +69,16 @@
     ?>
 </div>
 
-</body>
 
+<form action="employee.php" method="post">
+    Employee nanme: <br/>
+    <input type="text" name="emp_name" size="40"/>
+    <p/>
+    Employee designation: <br/
+    <input type="text" name="emp_desig" size="40"/>
+    <p/>
+    <input type="submit" name="submit" value="Submit"/>
+</form>
 
-
+    </body>
 </html>
