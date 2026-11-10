@@ -1,32 +1,43 @@
+
+<!DOCTYPE html>
 <html>
 
 <head>
   <title>Project 7-2: Adding Employees to a Database</title>
 
-  <style type="text/css">
-
-    div#message{
-      text-align:center;
-      margin-left:auto;
-      margin-right:auto;
-      width:40%;
+  <style>
+    div#message {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
       border: solid 2px green;
     }
   </style>
 </head>
 
-  <h2>Project 7-2: Adding employees to a Database</h2>
+<body>
+
+<div>
+  <h2>Project 7-2: Adding Employees to a Database</h2>
   <h3>Add New Employee</h3>
+</div>
 
-  <form action="employee_1.php" method="post">
-    Employee nanme: <br/>
-    <input type="text" name="emp_name" size="40"/>
-    <p/>
-    Employee designation: <br/>
-    <input type="text" name="emp_desig" size="40"/>
-    <p/>
-    <input type="submit" name="submit" value="Submit"/>
-  </form>
+<form action="employee_1.php" method="post">
 
-  </body>
+  Employee name: <br/>
+  <input type="text" name="emp_name" size="40"/>
+
+  <p></p>
+
+  Employee designation: <br/>
+  <input type="text" name="emp_desig" size="40"/>
+
+  <p></p>
+
+  <input type="submit" name="submit" value="Submit"/>
+
+</form>
+
+</body>
 </html>
