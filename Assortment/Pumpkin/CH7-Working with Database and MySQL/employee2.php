@@ -22,7 +22,7 @@
     <?php
     // if form submitted
     // process form input
-    if (isset($_POST['submit'])){
+    if ($_POST['submit']){
         // attempt connection to MySQL database
         $mysqli = new mysqli("192.168.0.198", "admin", "123", "employees");
 
