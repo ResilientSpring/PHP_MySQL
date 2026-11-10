@@ -6,7 +6,7 @@ try {
     $mysqli = new mysqli('192.168.0.198', 'admin', '123');
 
     if ($mysqli->query('CREATE DATABASE IF NOT EXISTS employees') )
-        echo "Database created successfully";
+        echo "Database created successfully\n";
     else {
         echo "Database was not create successfully.";
     }
