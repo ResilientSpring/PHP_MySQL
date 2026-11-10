@@ -59,6 +59,11 @@
             }
         }
 
+        // close message block
+        echo '</div>';
+
+        // close connection
+        $mysqli->close();
     }
 
     ?>
