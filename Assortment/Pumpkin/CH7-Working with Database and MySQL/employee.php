@@ -74,7 +74,7 @@
     Employee nanme: <br/>
     <input type="text" name="emp_name" size="40"/>
     <p/>
-    Employee designation: <br/
+    Employee designation: <br/>
     <input type="text" name="emp_desig" size="40"/>
     <p/>
     <input type="submit" name="submit" value="Submit"/>
