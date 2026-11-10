@@ -48,6 +48,8 @@
             $designation = $mysqli->escape_string($_POST['emp_desig']);
         }
 
+
+
     }
 
     ?>
