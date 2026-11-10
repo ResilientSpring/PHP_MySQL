@@ -15,6 +15,44 @@
         </style>
     </head>
 
+<body>
+    <h2>Project 7-2: Adding employees to a Database</h2>
+    <h3>Add New Employee</h3>
+
+    <?php
+    // if form submitted
+    // process form input
+    if (isset($_POST['submit'])){
+        // attempt connection to MySQL database
+        $mysqli = new mysqli("192.168.0.198", "admin", "123", "employees");
+
+        if ($mysqli === false)
+            die("ERROR: Could not connect to database.". mysqli_connect_error());
+
+        // open message block
+        echo '<div id="message">?';
+
+        // retrieve and check input values
+        $inputERROR = false;
+        if (empty($_POST['emp_name'])){
+            echo "ERROR: Please enter a valid employee name";
+            $inputERROR = true;
+        }else{
+            $name = $mysqli->escape_string($_POST['emp_name']);
+        }
+
+        if ($inputERROR != true && empty($_POST['emp_desig'])){
+            echo 'ERROR: Please enter a valid employee designation';
+            $inputERROR = true;
+        }else{
+            $designation = $mysqli->escape_string($_POST['emp_desig']);
+        }
+
+    }
+
+    ?>
+
+</body>
 
 
 
