@@ -48,7 +48,10 @@
             $designation = $mysqli->escape_string($_POST['emp_desig']);
         }
 
-
+    // add values to database using Insert query
+        if ($inputERROR != true){
+            $sql = "INSERT INTO employees (name, designation) VALUES ('$name', '$designation')";
+        }
 
     }
 
