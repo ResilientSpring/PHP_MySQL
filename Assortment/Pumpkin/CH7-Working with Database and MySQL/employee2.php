@@ -71,7 +71,7 @@
 
 
 <form action="employee2.php" method="post">
-    Employee nanme: <br/>
+    Employee name: <br/>
     <input type="text" name="emp_name" size="40"/>
     <p/>
     Employee designation: <br/>
