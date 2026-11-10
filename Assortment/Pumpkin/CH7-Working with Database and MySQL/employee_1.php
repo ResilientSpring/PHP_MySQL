@@ -8,8 +8,7 @@ if (isset($_POST['submit'])) {
 
     // Check connection.
     if ($mysqli->connect_error) {
-        die("ERROR: Could not connect to database. "
-            . $mysqli->connect_error);
+        die("ERROR: Could not connect to database. " . $mysqli->connect_error);
     }
 
     // Retrieve and check input values.
