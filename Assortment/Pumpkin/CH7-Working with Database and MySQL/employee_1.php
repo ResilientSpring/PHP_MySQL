@@ -11,6 +11,9 @@ if (isset($_POST['submit'])) {
         die("ERROR: Could not connect to database. " . $mysqli->connect_error);
     }
 
+    // open message block
+    echo '<div id=message>';
+
     // Retrieve and check input values.
     $inputERROR = false;
 
