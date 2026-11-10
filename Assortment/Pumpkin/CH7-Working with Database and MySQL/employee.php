@@ -51,6 +51,12 @@
     // add values to database using Insert query
         if ($inputERROR != true){
             $sql = "INSERT INTO employees (name, designation) VALUES ('$name', '$designation')";
+
+            if ($mysqli->query($sql) === true){
+                echo 'New employee record added with ID: '.$mysqli->insert_id;
+            }else{
+                echo "ERROR: Could not execute query: $sql. " . $mysqli->error;
+            }
         }
 
     }
