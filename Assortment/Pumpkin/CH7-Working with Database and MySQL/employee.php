@@ -30,7 +30,7 @@
             die("ERROR: Could not connect to database.". mysqli_connect_error());
 
         // open message block
-        echo '<div id="message">?';
+        echo '<div id="message">';
 
         // retrieve and check input values
         $inputERROR = false;
