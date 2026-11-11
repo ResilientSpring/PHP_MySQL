@@ -47,12 +47,12 @@ if (isset($_POST["submit"])){
 
 
 
-if ($mysql->query("CREATE DATABASE IF NOT EXISTS employee"))
+if ($mysqli->query("CREATE DATABASE IF NOT EXISTS employee"))
     echo "Database was created successfully.";
 else
     echo "Database was not created successfully.";
 
-$mysql->select_db("employee");
+$mysqli->select_db("employee");
 
 
 ?>
