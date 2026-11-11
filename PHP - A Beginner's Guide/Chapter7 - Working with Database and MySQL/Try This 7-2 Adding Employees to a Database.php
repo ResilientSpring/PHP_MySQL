@@ -8,6 +8,9 @@
         div#message{
             text-align: center;
             margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            border: solid 2px green;
         }
 
 
