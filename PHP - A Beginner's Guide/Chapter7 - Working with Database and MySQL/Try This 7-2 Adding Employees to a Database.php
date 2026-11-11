@@ -28,7 +28,7 @@
     Employee designation: <br/>
     <input type="text" name="emp_desig" size="40"/>
     <p></p>
-    <input type="button" name="submit" title="Submit"/>
+    <input type="button" name="submit" value="Submit"/>
 </form>
 
 <?php
