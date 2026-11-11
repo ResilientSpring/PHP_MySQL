@@ -37,7 +37,11 @@
 // process form input
 if (isset($_POST["submit"])){
 
-    $mysql = new mysqli("localhost", "root", null);
+    $mysqli = new mysqli("localhost", "root", null);
+
+    if ($mysqli->connect_error){
+        echo "ERROR: Cannot connect to the database.<br/>";
+    }
 
 }
 
