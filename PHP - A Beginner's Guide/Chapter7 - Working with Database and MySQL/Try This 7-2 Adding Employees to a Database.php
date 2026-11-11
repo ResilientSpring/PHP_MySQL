@@ -35,9 +35,13 @@
 
 // if form submitted
 // process form input
+if (isset($_POST["submit"])){
+
+    $mysql = new mysqli("localhost", "root", null);
+
+}
 
 
-$mysql = new mysqli("localhost", "root", null);
 
 if ($mysql->query("CREATE DATABASE IF NOT EXISTS employee"))
     echo "Database was created successfully.";
