@@ -18,7 +18,13 @@
 
 <body>
 
+<h2>Project 7-2: Adding employees to a Database</h2>
+<h3>Add New Employee</h3>
+
 <?php
+
+
+
 
 $mysql = new mysqli("localhost", "root", null);
 
