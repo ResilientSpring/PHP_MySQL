@@ -1,3 +1,9 @@
+<html>
+
+<head>
+    <title>Project 7-2: Adding Employees to a Database</title>
+</head>
+
 <?php
 
 $mysql = new mysqli("localhost", "root", null);
@@ -10,5 +16,5 @@ else
 $mysql->select_db("employee");
 
 
-
-
+?>
+</html>
