@@ -6,7 +6,7 @@
         <style type="text/css">
 
             div#message{
-                text=align:center;
+                text-align:center;
                 margin-left:auto;
                 margin-right:auto;
                 width:40%;
@@ -48,7 +48,7 @@
             $designation = $mysqli->escape_string($_POST['emp_desig']);
         }
 
-    // add values to database using Insert query
+        // add values to database using Insert query
         if ($inputERROR != true){
             $sql = "INSERT INTO employees (name, designation) VALUES ('$name', '$designation')";
 
@@ -71,7 +71,7 @@
 
 
 <form action="employee.php" method="post">
-    Employee nanme: <br/>
+    Employee name: <br/>
     <input type="text" name="emp_name" size="40"/>
     <p/>
     Employee designation: <br/>
@@ -82,3 +82,5 @@
 
     </body>
 </html>
+
+<!-- See also: https://chatgpt.com/c/6af40751-52c0-83ee-a72f-d2cb7b6877f7 -->
