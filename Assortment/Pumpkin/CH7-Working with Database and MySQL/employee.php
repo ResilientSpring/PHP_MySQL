@@ -82,3 +82,5 @@
 
     </body>
 </html>
+
+<!-- See also: https://chatgpt.com/c/6af40751-52c0-83ee-a72f-d2cb7b6877f7 -->
