@@ -21,11 +21,20 @@
 <h2>Project 7-2: Adding employees to a Database</h2>
 <h3>Add New Employee</h3>
 
+<form action="Try%20This%207-2%20Adding%20Employees%20to%20a%20Database.php" method="post">
+    Employee name: <br/>
+    <input type="text" name="emp_name" size="40/">
+    <p></p>
+    Employee designation: <br/>
+    <input type="text" name="emp_desig" size="40"/>
+    <p></p>
+    <input type="button" name="submit" title="Submit"/>
+</form>
+
 <?php
 
 // if form submitted
 // process form input
-
 
 
 $mysql = new mysqli("localhost", "root", null);
