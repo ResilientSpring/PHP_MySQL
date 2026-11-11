@@ -46,6 +46,9 @@ if (isset($_POST["submit"])){
     // open message block
     echo '<div id="message">';
 
+    // retrieve and check input values
+    $inputError = false;
+
 }
 
 
