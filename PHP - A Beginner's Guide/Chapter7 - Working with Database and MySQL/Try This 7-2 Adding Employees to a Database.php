@@ -13,9 +13,10 @@
             border: solid 2px green;
         }
 
-
     </style>
 </head>
+
+<body>
 
 <?php
 
@@ -30,4 +31,7 @@ $mysql->select_db("employee");
 
 
 ?>
+
+</body>
+
 </html>
