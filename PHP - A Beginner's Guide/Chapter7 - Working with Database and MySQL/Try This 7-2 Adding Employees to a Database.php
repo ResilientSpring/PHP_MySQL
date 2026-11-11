@@ -40,8 +40,11 @@ if (isset($_POST["submit"])){
     $mysqli = new mysqli("localhost", "root", null);
 
     if ($mysqli->connect_error){
-        echo "ERROR: Cannot connect to the database.<br/>";
+        echo "ERROR: Cannot connect to the database.<br/>".mysqli_connect_error();
     }
+
+    // open message block
+    echo '<div id="message">';
 
 }
 
