@@ -2,6 +2,16 @@
 
 <head>
     <title>Project 7-2: Adding Employees to a Database</title>
+
+    <style>
+
+        div#message{
+            text-align: center;
+            margin-left: auto;
+        }
+
+
+    </style>
 </head>
 
 <?php
